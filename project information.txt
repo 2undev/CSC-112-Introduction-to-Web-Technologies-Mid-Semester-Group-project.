@@ -34,4 +34,4 @@ Develop a website for an upcoming fashion house. this should have at least 10 pa
 9. Use external CSS file to manage the website
 
 10. show the structure of the website using DOM
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
