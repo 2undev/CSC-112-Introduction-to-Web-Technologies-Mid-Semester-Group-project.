@@ -12,6 +12,8 @@ Your team leader is to book an office-hour and share the link with every group m
 If you are unclear about these submission guidelines, contact your success advisor or schedule an office hour with a lecturer for clarification.
 Please be aware that this assessment contributes to your CA and WILL count towards your final score. So ensure timely submission on or before the deadline.
 PLEASE NOTE THAT ANY SUBMISSION AFTER THE NEW DEADLINE WILL RESULT IN POINTS DEDUCTION IN YOUR FINAL SCORE!
+
+
 MID SEMESTER ASSESSMENT (part 2)  —--- TOTAL POINTS = 10
 Develop a website for an upcoming fashion house. this should have at least 10 pages and should have the following features:
 

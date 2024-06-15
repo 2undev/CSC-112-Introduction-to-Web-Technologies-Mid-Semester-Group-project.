@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+
+header{
+  background-color: #d5d3c3;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-bottom: solid thick #000;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav li a{
+  /* margin-right: 10px; */
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav ul {
+  margin: 10px;
+  list-style: none;
+ 
+}
+
+button {
+  margin-left: 15px;
+}
+
+#brandName {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+
+.homepage {
+ /* border: thick solid #000; */
+ padding: 10px;
+ width: auto;
+ height: 90vh;
+ background-image: url('images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#Marq {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#leftContainer {
+  display: flex;
+  justify-content: space-between;
+ width: 250px;
+ text-wrap: nowrap;
+}
+
+#leftContainer a {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  padding: 14px 20px;
+ 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
