@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +9,7 @@
 
 body{
   font-family: Arial, sans-serif;
+  background-color: #d3d2c3;
 }
 
 
@@ -12,7 +17,7 @@ header{
   background-color: #d5d3c3;
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: solid thick #000;
 }
 
@@ -21,25 +26,35 @@ header nav {
 }
 
 header nav li a{
-  /* margin-right: 10px; */
   text-decoration: none;
-  list-style: none;
+  color: #4b4c29;
+  
+}
+header nav li a:hover {
+ background-color: #4b4c29;
+ padding: 5px;
+ font-size: 20px;
+ color: white;
+  
 }
 
 header nav ul {
   margin: 10px;
   list-style: none;
+  font-weight: bolder;
  
 }
 
-button {
-  margin-left: 15px;
-}
 
 #brandName {
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 5px;
+  font-weight: bolder;
+  color: #4b4c29;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -55,28 +70,136 @@ button {
 }
 
 #Marq {
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bolder;
+  font-style: italic;
+  /* color: #551a8b; */
+  color: #4b4c29;
+  text-shadow: #000 2px 6px;
+  /* position: absolute ;
+  top: 800px; */
 }
 
-#leftContainer {
+#rightNavContent {
   display: flex;
   justify-content: space-between;
  width: 250px;
  text-wrap: nowrap;
+
+ /* border: thick solid #551a8b; */
+
 }
 
-#leftContainer a {
+#rightNavContent a {
   text-decoration: none;
   margin-top: 10px;
+  font-weight: bolder;
+  color: #4b4c29;
 }
 
 button {
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
+  background-color: #4b4c29;
   color: white;
-  padding: 14px 20px;
- 
+  /* padding: 10px 10px; */
+  margin-left: 7px;
   border: none;
+  border-radius: 50px;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
+  font-weight: bolder;
+  padding: 0%;
+}
+
+button:hover {
+  background-color: #551a8b;
+  color: white;
+  border: thin solid palevioletred;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftContent {
+  width:600px;
+  /* border: thick solid #551a8b; */
+  /* border-radius: 50px; */
+  padding: 10px;
+  line-height: 35px;
+  margin-top: 70px;
+ 
+}
+
+.leftContent p {
+  margin-top: 250px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #4b4c29;
+  /* color: #551a8b; */
+}
+.leftContent h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  /* color: #551a8b; */
+  color: #4b4c29;
+  line-height: 75px;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#exploreBtn {
+  background-color: #4b4c29;
+  color: white;
+  padding: 10px 10px;
+  /* margin-left: 7px; */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 50%;
+  font-weight: bolder;
+}
+
+.rightContent {
+  width:500px;
+  margin-top: 70px;
+  /* border: thick solid #551a8b; */
+  border-radius: 50px;
+  padding: 10px;
+  line-height: 47px;
+  /* background-color: rgba(0, 255, 238, 0.097); */
+  text-align: center;
+}
+
+.rightContent p {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bolder;
+  /* color: #551a8b; */
+  color: #4b4c29;
+  margin-top: 40px;
+}
+
+
+.middleContent {
+  width: 700px;
+  margin-top: 250px;
+  /* border: thick solid #551a8b; */
+  border-radius: 50px;
+  padding: 20px;
+ color: black;
+ /* color: #4b4c29; */
+ font-family: "Playwrite NZ", cursive;
+ font-optical-sizing: auto;
+ font-style: normal;
+  font-weight: bolder;
+   background-color: rgba(0, 255, 238, 0.097);
+}
+
+.middleContent:hover {
+  background-color: #d3d2c3;
 }
