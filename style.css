@@ -164,6 +164,11 @@ button:hover {
   font-weight: bolder;
 }
 
+#exploreBtn a {
+  text-decoration: none;
+  color: white;
+}
+
 .rightContent {
   width:500px;
   margin-top: 70px;
