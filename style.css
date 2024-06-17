@@ -87,17 +87,18 @@ header nav ul {
  width: 15%;
  text-wrap: nowrap;
 
+
  /* border: thick solid #551a8b; */
 
 }
 
-#rightNavContent a {
+#rightNavContent #contact {
   text-decoration: none;
   margin-top: 10px;
   font-weight: bolder;
   color: #4b4c29;
 }
-#rightNavContent a:hover {
+#rightNavContent #contact:hover {
   /* background-color: #4b4c29; */
  padding: 5px;
  font-size: 20px;
@@ -107,12 +108,11 @@ header nav ul {
 #rightNavContent #loginButton {
   background-color: #4b4c29;
   color: white;
-  /* padding: 10px 10px; */
-  margin-left: 7px;
+  margin-top: 10px;
   border: thin solid #fff;
   border-radius: 50px;
   cursor: pointer;
-  width: 30%;
+  width: 40%;
   font-weight: bolder;
   padding: 0%;
   text-align: center;
