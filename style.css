@@ -84,7 +84,7 @@ header nav ul {
 #rightNavContent {
   display: flex;
   justify-content: space-between;
- width: 250px;
+ width: 15%;
  text-wrap: nowrap;
 
  /* border: thick solid #551a8b; */
@@ -104,8 +104,7 @@ header nav ul {
  text-decoration: underline;
 }
 
-#rightNavContent button {
-  /* background-color: palevioletred; */
+#rightNavContent #loginButton {
   background-color: #4b4c29;
   color: white;
   /* padding: 10px 10px; */
@@ -113,12 +112,16 @@ header nav ul {
   border: thin solid #fff;
   border-radius: 50px;
   cursor: pointer;
-  width: 50%;
+  width: 30%;
   font-weight: bolder;
   padding: 0%;
+  text-align: center;
+  padding: 5px 10px;
+  /* margin-bottom: 5px; */
+  text-decoration: none;
 }
 
-#rightNavContent button:hover {
+#rightNavContent #loginButton:hover {
   background-color: transparent;
   color: #4b4c29;
   border: thin solid #4b4c29;
