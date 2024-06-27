@@ -3,13 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign up</title>
+  <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-  <h1>Signup Page</h1>
-  <p>
-    this is where we will display the signup form for new users to create an account
-  </p>
+
+  <main>
+    <h1>Sign Up </h1>
+
+    <div>
+      <div class="formContainer">
+        <form action="">
+          <div>
+            <label for="Full name">Full Name</label>
+            <input type="text" class="inpField" placeholder="Enter Full Name">
+          </div>
+          <div>
+            <label for="Email">Email</label>
+            <input type="email" class="inpField" placeholder="Enter Emial">
+          </div>
+          <div>
+            <label for="Address">Address</label>
+            <input type="text" class="inpField" placeholder="Enter Address">
+          </div>
+          <div>
+            <label for="Password">Password</label>
+            <input type="password" class="inpField" placeholder="Password">
+          </div>
+          <button type="submit" class="btn">REGISTER</button>
+        </form>
+
+        <p>
+          Already have account? <span>Login</span>
+        </p>
+
+        <hr>Or <hr>
+
+        <button class="registerBtn"><span class="icon"></span> Sign up with Google</button>
+        <button class="registerBtn"><span class="icon"></span>Sign up with Facebook</button>
+        <button class="registerBtn"><span class="icon"></span>Sign up with Twitter</button>
+      </div>
+      <div>
+        image
+      </div>
+    </div>
+  </main>
+  
   
 </body>
 </html>
