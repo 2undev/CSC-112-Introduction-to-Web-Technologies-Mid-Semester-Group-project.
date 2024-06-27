@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultation</title>
+    <link rel="stylesheet" href="consultation.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navLeft">
+        <nav>
+          <ul>
+            <li><img src="" alt="Logo" />logo</li>
+            <li><a href="" id="brandName">Terra&Moda</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="navMiddle">
+        <nav>
+          <ul>
+            <li><a href="landing-page.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#men">MEN </a></li>
+            <li><a href="#women">WOMEN</a></li>
+            <li><a href="#bridal">BRIDAL</a></li>
+            <li><a href="#shoes">SHOES</a></li>
+            <li><a href="upcomming_event.html">UPCOMING EVENT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="consultation.html">BOOK CONSULTATION</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="navRight">
+        <nav>
+          <ul>
+            <li><a href="#user">User</a></li>
+            <li><a href="#likes">Likes</a></li>
+            <li><a href="#cart">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main>
+      
+      <marquee id="Marq" behavior="scroll" direction="left">Welcome to Terra&Moda's Exclusive Fashion Event! </marquee>
+
+      <section class="wallpaper">
+        <h1></h1>
+      </section>
+      
+      <div class="top">
+        <h1>CONSULTATIONS</h1>
+        <a href="terms.html"> CLICK TO READ CONSULTATION TERMS AND CONDITIONS</a>
+      </div>
+      
+      
+      <section class="category">
+        <p class="sectionP">Consultations at the Terra&Moda are categorised into 3 types;</p>
+        <ol>
+          <li>
+            <b>CATEGORY A CONSULTATION:</b> 
+            <br>
+            Requires no payment. The client is
+            ordering from the Tera&Moda's staple colours, existing colours
+            or existing styles. This category requires no payment and the client
+            meets with the Design Associate.
+          </li>
+          <li>
+            <b>CATEGORY B CONSULTATION:</b> 
+            <br>
+            The client is ordering from The
+            Tera&Moda's current collection of colours and styles. The
+            client will be meeting with the Creative Director for this
+            consultation and it attracts a fee of NGN 45,000 per hour which is
+            not deductible from the client's final bill.
+          </li>
+          <li>
+            <b>CATEGORY C CONSULTATION:</b> 
+            <br>
+            The client is requesting a
+            customised outfit and will be meeting with the Head
+            Designer/Founder. This consultation category attracts a fee of NGN
+            80,000 per hour and will not be deducted from the final bill.
+          </li>
+        </ol>
+
+        <h1>CONSULTATION POLICY</h1>
+        <p class="sectionP">
+           Consultations at the House of Deola are held to ensure that the design
+        team gets all necessary details from the client and guide the client
+        towards choosing a befitting design and colour for the client. In the
+        case where a new design is to be created for the client, the
+        consultation helps the design to properly understand the wants and needs
+        of the client. This will help the designer to translate these wants and
+        needs into custom designs and outfits for the client.
+        </p>
+       
+        <br />
+        <br />
+
+        Consultations are usually between the client and the design team.
+        Clients should refrain from bringing more tha one person as company to a
+        consultation.
+
+        <br />
+        <br />
+        In a situation where the client is a couple and wish to wear matching
+        outfits, they are advised to come together for the consultation.
+
+        <h1>ADHERENCE TO TIME</h1>
+
+        <p class="sectionP">
+          Kindly note that consultation slots are to be strictly adhered to; if you arrive beyond 15 minutes into your allotted slot, we are unable to guarantee that the consultation will take place. Therefore, we strongly urge that you contact us well in advance if you are running late for your consultation.
+        </p>
+
+        <h1>RESCHEDULING</h1>
+
+        <p class="sectionP">
+          Should you wish to cancel or reschedule your appointment to a later date, we require a 24 hour notice period after which we will be unable to guarantee another slot immediately.
+        </p>
+      </section>
+      <section class="consultation">
+        <h1>Book a Consultation</h1>
+        <form action="">
+          <div class="inputContainer">
+            <label for="full_name">Full Name</label>
+            <input type="text" placeholder="Enter your Full name (required)">
+          </div>
+          <div class="inputContainer">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter your email (required)">
+          </div>
+          <div class="inputContainer">
+            <label for="phone_number">Phone Number</label>
+            <input type="text" placeholder="Enter your phone number (required)">
+          </div>
+          <div class="inputContainer">
+            <label for="date">
+              Consultation Date (a member of our team will get in touch to confirm your date or suggest an alternative date)
+            </label>
+            <input type="date" name="date" id="date">
+          </div>
+          <div class="inputContainer">
+            <label for="phone_number">Select Consultation Type</label>
+            <select name="consultation_type"  id="select_consultation_type" title="consultation_type">
+              <option value="">Pick consultation type</option>
+              <option value="Consultation A (Free)">Consultation A (Free)</option>
+              <option value="Consultation B">Consultation B</option>
+              <option value="Consultation C">Consultation C</option>
+              <option value="Bridal Consultation">Bridal Consultation</option>
+            </select>
+          </div class="inputContainer">
+
+          <div class="inputContainer">
+            <label for="description">Consultation Description</label>
+            <textarea name="consultation_description" id="consultation_description" placeholder="Consultation Description"></textarea>
+          </div>
+
+          <div class="inputMainContainer">
+            <p class="sectionP">How would you like to make Payment?</p>
+            <div class="radioContainer">
+              <input type="radio" class="radioInput" name="" id="free" value="Consultation A (Free)" title="radioInput">
+              <label for="free_consultation">Consultation A (Free)</label>
+            </div>
+
+            
+            <div class="radioContainer">
+              <input type="radio" class="radioInput" name="" id="online_payment" value="Online Payment" title="radioInput>
+              <label for="online_payment">Online Payment</label>
+            </div>
+
+            <div class="radioContainer">
+              <input type="radio" class="radioInput" name="" id="bank_transfer" value="Bank Transfer" title="radioInput>
+              <label for="bank_transfer">Bank Transfer</label>
+            </div>
+          </div>
+          <button type="submit">SEND</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#men">MEN </a></li>
+          <li><a href="#women">WOMEN</a></li>
+          <li><a href="#bridal">BRIDAL</a></li>
+          <li><a href="#shoes">SHOES</a></li>
+          <li><a href="#collection">UPCOMING EVENT</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="#update">>BOOK CONSULTATION</a></li>
+        </ul>
+      </nav>
+
+      <a href="">logo</a>
+      <a href="">logo</a>
+      <a href="">logo</a>
+    </footer>
+  </body>
+</html>

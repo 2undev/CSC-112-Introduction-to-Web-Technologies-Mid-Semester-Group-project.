@@ -1,54 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 body{
   font-family: Arial, sans-serif;
   background-color: #d3d2c3;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
 }
 
 
-header{
-  background-color: #d5d3c3;
+header {
+  margin-top: 0;
+  /* margin-bottom: 20px; */
   display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
+  justify-content: space-between;
+  padding: 15px 10px;
   border-bottom: solid thick #000;
+  /* text-wrap: nowrap; */
+  position: fixed;
+  width: 100%;
+  background-color: #d6d4c5;
+
+  color: #4b4c2a;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 25px;
 }
 
-header nav {
-  display: flex;
-}
 
-header nav li a{
-  text-decoration: none;
-  color: #4b4c29;
-  
-}
-header nav li a:hover {
- background-color: #4b4c29;
- padding: 5px;
- font-size: 20px;
- color: white;
-  
-}
+header nav li{
+ list-style: none;
+ display: inline-flex;
+ margin: 0 5px;
+ padding: 2px 8px;
+ text-wrap: nowrap;
 
-header nav ul {
-  margin: 10px;
+}
+header nav li{
   list-style: none;
-  font-weight: bolder;
+  display: inline-flex;
+  margin: 0 5px;
+  padding: 2px 8px;
  
-}
+ }
+
+ 
+ header .navRight {
+   margin-right: 20px;
+   /* border: thin solid red; */
+
+ }
+
+ header .navRight nav li {
+   background-color: transparent;
+   border: 3px solid #4b4c29;
+ }
+
+ header .navRight nav li a {
+   background-color: transparent;
+   border: thin solid #4b4c29; 
+   width: 120px;
+
+ }
+ header .navRight nav li .contactbtn {
+   background-color: #4b4c29;
+   border: thin solid #fff; 
+   width: 120px;
+   color: #fff;
+
+ }
+ /* header .navRight nav li .contactbtn:hover {
+   background-color: #4b4c29;
+   border: thin solid #fff; 
+   width: 120px;
+
+ } */
+
+
+ header .navRight nav li a:hover {
+   border: thin solid #4b4c29;
+   background-color: #4b4c29;
+  border-radius: 5px;
+
+ }
+
+
+
+
+
+ header .navRight nav li:hover{
+   background-color: #d6d4c5;
+   border-radius: 5px;
+ }
+
+ 
+ 
+ header nav li a{
+   text-decoration: none;
+   color: #4b4c29;
+   font-weight: bolder;
+   /* width: 100px; */
+   text-align: center;
+ }
+ 
+
+ header nav li a:hover{
+   color: #fff;
+ }
 
 
 #brandName {
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
   margin-top: 5px;
   font-weight: bolder;
@@ -60,72 +140,34 @@ header nav ul {
 
 
 .homepage {
- /* border: thick solid #000; */
- padding: 10px;
+ padding: 10px 10px;
  width: auto;
- height: 90vh;
+ height: 93vh;
+
+ margin-top: 0;
+ /* border: thick solid red !important; */
+
  background-image: url('images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+
 }
+
+
 
 #Marq {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bolder;
   font-style: italic;
-  /* color: #551a8b; */
   color: #4b4c29;
   text-shadow: #000 2px 6px;
-  /* position: absolute ;
-  top: 800px; */
+ position: absolute;
+ margin-top: 0px;
+ 
 }
 
-#rightNavContent {
-  display: flex;
-  justify-content: space-between;
- width: 15%;
- text-wrap: nowrap;
 
-
- /* border: thick solid #551a8b; */
-
-}
-
-#rightNavContent #contact {
-  text-decoration: none;
-  margin-top: 10px;
-  font-weight: bolder;
-  color: #4b4c29;
-}
-#rightNavContent #contact:hover {
-  /* background-color: #4b4c29; */
- padding: 5px;
- font-size: 20px;
- text-decoration: underline;
-}
-
-#rightNavContent #loginButton {
-  background-color: #4b4c29;
-  color: white;
-  margin-top: 10px;
-  border: thin solid #fff;
-  border-radius: 50px;
-  cursor: pointer;
-  width: 40%;
-  font-weight: bolder;
-  padding: 0%;
-  text-align: center;
-  padding: 5px 10px;
-  /* margin-bottom: 5px; */
-  text-decoration: none;
-}
-
-#rightNavContent #loginButton:hover {
-  background-color: transparent;
-  color: #4b4c29;
-  border: thin solid #4b4c29;
-}
 
 .banner {
   display: flex;
@@ -134,8 +176,6 @@ header nav ul {
 
 .leftContent {
   width:600px;
-  /* border: thick solid #551a8b; */
-  /* border-radius: 50px; */
   padding: 10px;
   line-height: 35px;
   margin-top: 70px;
@@ -148,12 +188,10 @@ header nav ul {
   font-size: 30px;
   font-weight: bolder;
   color: #4b4c29;
-  /* color: #551a8b; */
 }
 .leftContent h1 {
   font-size: 70px;
   font-weight: bolder;
-  /* color: #551a8b; */
   color: #4b4c29;
   line-height: 75px;
 
@@ -190,7 +228,7 @@ header nav ul {
 
 .rightContent {
   width:500px;
-  margin-top: 30px;
+  margin-top: 70px;
   border: thin solid #fff;
   border-radius: 50px;
   padding: 10px;
@@ -202,33 +240,6 @@ header nav ul {
   font-style: italic;
   font-size: 30px;
   font-weight: bolder;
-  /* color: #551a8b; */
   color: #4b4c29;
   margin-top: 30px;
-}
-
-
-.middleContent {
-  width: 700px;
-  height: 50vh;
-  overflow: hidden;
-  overflow-y: scroll;
-  scrollbar-color: transparent;
-  margin-top: 250px;
-  margin-left: 20px;
-  margin-right: 20px;
-  /* border: thick solid #551a8b; */
-  border-radius: 50px;
-  padding: 20px;
- /* color: black; */
- color: #4b4c29;
- font-family: "Playwrite NZ", cursive;
- font-optical-sizing: auto;
- font-style: normal;
-  font-weight: bolder;
-   background-color: rgba(0, 255, 238, 0.097);
-}
-
-.middleContent:hover {
-  background-color: #d3d2c3;
 }

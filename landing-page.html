@@ -1,11 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>homepage</title>
-</head>
-<body>
-  <h1>this is where we will display the full function of the website </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing-page</title>
+    <link rel="stylesheet" href="landing-page.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navLeft">
+        <nav>
+          <ul>
+            <li><img src="" alt="Logo" /></li>
+            <li><a href="" id="brandName">Terra&Moda</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="navMiddle">
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#">MEN </a></li>
+            <li><a href="women.html">WOMEN</a></li>
+            <li><a href="bridal.html">BRIDAL</a></li>
+            <li><a href="shoes.html">SHOES</a></li>
+            <li><a href="upcomming_event.html">UPCOMING EVENT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="consultation.html">BOOK CONSULTATION</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="navRight">
+        <nav>
+          <ul>
+            <li title="User">
+              <a href="#user"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#4b4c2a"
+                >
+                  <path
+                    d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z"
+                  /></svg
+              ></a>
+            </li>
+
+            <li title="Favorites">
+              <a href="#likes"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#4b4c2a"
+                >
+                  <path
+                    d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z"
+                  /></svg
+              ></a>
+            </li>
+
+            <li title="Cart">
+              <a href="#cart"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#4b4c2a"
+                >
+                  <path
+                    d="M284.53-80.67q-30.86 0-52.7-21.97Q210-124.62 210-155.47q0-30.86 21.98-52.7Q253.95-230 284.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83Zm400 0q-30.86 0-52.7-21.97Q610-124.62 610-155.47q0-30.86 21.98-52.7Q653.95-230 684.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83ZM238.67-734 344-515.33h285.33l120-218.67H238.67ZM206-800.67h589.38q22.98 0 34.97 20.84 11.98 20.83.32 41.83L693.33-490.67q-11 19.34-28.87 30.67-17.87 11.33-39.13 11.33H324l-52 96h487.33V-286H278q-43 0-63-31.83-20-31.84-.33-68.17l60.66-111.33-149.33-316H47.33V-880h121.34L206-800.67Zm138 285.34h285.33H344Z"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <marquee id="Marq" behavior="scroll" direction="left"
+        >Welcome to Terra&Moda's Exclusive Fashion Event!
+      </marquee>
+      <section class="sectionContainer hero">hero section</section>
+
+      <!-- Men section -->
+      <section class="sectionContainer">
+        <h1 class="sectionHeading">Men</h1>
+        <div class="innerContainer">
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/TRAD-min-scaled.jpg" alt="" />
+            </div>
+
+            <div class="btnContainer">
+              <a href="traditional.html" class="styleBtn">TRADITIONAL</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/TUXEDO-min-scaled.jpg" alt="" />
+            </div>
+            <div class="btnContainer">
+              <a href="tuxedo.html" class="styleBtn">TUXEDO</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/SUIT-min-scaled.jpg" alt="" />
+            </div>
+
+            <div class="btnContainer">
+              <a href="suit.html" class="styleBtn">SUITS</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Women section -->
+      <section class="sectionContainer women">
+        <h1 class="sectionHeading floatRight">Women</h1>
+
+        <div class="innerContainer">
+          <div class="styleContainer">
+            <div class="img">
+              <img
+                src="images/WOMENWEAR-LOOK-white top and black mini skirt.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="btnContainer">
+              <a href="women.html" class="styleBtn">WOMEN</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img
+                src="images/ATAFO SS 24 jalabiya t-shirt SS24 LOOK 16.webp"
+                alt=""
+              />
+            </div>
+            <div class="btnContainer">
+              <a href="women.html" class="styleBtn">WOMEN</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/ATAFO-WOMENWEAR-LOOK-Black gown.webp" alt="" />
+            </div>
+
+            <div class="btnContainer">
+              <a href="women.html" class="styleBtn">WOMEN</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shoes section -->
+      <section class="sectionContainer shoes">
+        <h1 class="sectionHeading"><a href="shoes.html">Shoes</a></h1>
+
+        <div class="innerContainer">
+          <div class="styleContainer">
+            <div class="img">
+              <img
+                src="images/shoes/Black-Double-Monk-Strap...-scaled-600x600.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="btnContainer">
+              <a href="shoes.html" class="styleBtn">SHOES</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/shoes/Black-Lace-up..-1-600x600.webp" alt="" />
+            </div>
+            <div class="btnContainer">
+              <a href="shoes.html" class="styleBtn">SHOES</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img
+                src="images/shoes/Black-Lace-up...-scaled-2-600x600.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="btnContainer">
+              <a href="shoes.html" class="styleBtn">SHOES</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bridal section -->
+      <section class="sectionContainer bridal">
+        <!-- <h1 class="sectionHeading floatRight">Bridal</h1> -->
+
+        <h1 class="explore">
+          <a href="bridal.html">
+            Explore 
+            <br>
+            <span class="moveleff">Bridal</span>
+          </a>
+        </h1>
+
+        <!-- <div class="innerContainer">
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/bridal/bridal 1.jpg" alt="" />
+            </div>
+
+            <div class="btnContainer">
+              <a href="bridal.html" class="styleBtn">BRIDAL</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/bridal/bridal 2.jpg" alt="" />
+            </div>
+            <span class="borderB"></span>
+            <div class="btnContainer">
+              <a href="bridal.html" class="styleBtn">BRIDAL</a>
+            </div>
+          </div>
+
+          <div class="styleContainer">
+            <div class="img">
+              <img src="images/bridal/bridal 3.jpg" alt="" />
+            </div>
+
+            <div class="btnContainer">
+              <a href="bridal.html" class="styleBtn">BRIDAL</a>
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+      <!-- Collection section -->
+      <section class="sectionContainer collection">
+        <h1 class="sectionHeading">Collection</h1>
+      </section>
+
+      <!-- Update section -->
+      <section class="sectionContainer update">
+        <h1 class="sectionHeading floatRight">Testimonials</h1>
+      </section>
+
+      <!-- Newsletter section -->
+      <section class="sectionContainer newsletter">
+        <h1>Subscribe to our newsletter</h1>
+        <p>
+          Stay up to date with the latest trends and exclusive offers. Sign up
+          now!
+        </p>
+        <form action="">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#men">MEN </a></li>
+          <li><a href="#women">WOMEN</a></li>
+          <li><a href="#bridal">BRIDAL</a></li>
+          <li><a href="#shoes">SHOES</a></li>
+          <li><a href="#collection">COLLECTION</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="#update">UPDATES</a></li>
+        </ul>
+      </nav>
+
+      <a href="">logo</a>
+      <a href="">logo</a>
+      <a href="">logo</a>
+    </footer>
+  </body>
 </html>

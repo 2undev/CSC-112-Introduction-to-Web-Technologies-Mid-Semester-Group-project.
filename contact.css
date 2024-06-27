@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&display=swap');
 
 * {
   margin: 0;
@@ -7,10 +11,79 @@
   box-sizing: border-box;
 }
 body {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: x-large;
+
 background-color: #d6d4c5;
 color: #4b4c2a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom: solid thick #000;
+  /* text-wrap: nowrap; */
+  position: fixed;
+  width: 100%;
+  background-color: #d6d4c5;
+
+  color: #4b4c2a;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 25px;
+}
+
+
+header nav li{
+ list-style: none;
+ display: inline-flex;
+ margin: 0 5px;
+ padding: 2px 8px;
+
+}
+header nav li:hover{
+ background-color: #4b4c2a;
+ border-radius: 50px;
+}
+
+
+header nav li a{
+  text-decoration: none;
+  color: #4b4c29;
+  font-weight: bolder;
+  
+  
+}
+header nav li a:hover{
+  color: #fff;
+}
+
+/* .navLeft nav li a:hover {
+  background-color: #4b4c2a;
+
+} */
+.navLeft nav li a:hover {
+  background-color: transparent !important;
+  border-radius: 0;
+}
+
+
+#brandName {
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bolder;
+  color: #4b4c29;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#brandName:hover {
+  background-color: transparent;
+  color: #fff;
 }
 
 .mainContainer {
@@ -19,7 +92,8 @@ color: #4b4c2a;
   height: 100vh;
   display: block;
   padding: 70px;
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
 }
 
 .classMiddleContainer {
@@ -134,7 +208,7 @@ color: #4b4c2a;
 .btn:hover {
   background-color: #4b4c2a;
   color: white;
-  border: thin solid #fff;
+  border: 3px solid #fff;
 }
 
 
@@ -181,3 +255,17 @@ color: #4b4c2a;
 .fa-brands {
   color: #000;
 }
+
+/* 
+#Marq {
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #4b4c29;
+  text-shadow: #000 2px 6px;
+ position: absolute;
+ margin-top: 0px;
+ 
+} */
+
+
