@@ -92,16 +92,13 @@ main {
   display: flex;
   width: 100%;
   height: auto;
-  /* height: 100vh; */
   flex-wrap: wrap;
-  /* border: thick solid brown; */
   justify-content: center;
-  /* align-items: center; */
 }
 
 .sectionContainer {
   margin: 20px 0;
-  /* border: thick solid brown; */
+
 }
 
 .styleContainer .img img{
