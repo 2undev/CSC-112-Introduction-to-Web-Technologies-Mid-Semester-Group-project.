@@ -99,6 +99,12 @@ main {
   /* align-items: center; */
 }
 
+
+.styleContainer {
+  border: thick solid black;
+  padding: 5px 15px;
+}
+
 .sectionContainer {
   margin: 20px 0;
   /* border: thick solid brown; */
@@ -117,10 +123,23 @@ main {
 
 
 .btnContainer {
-  display: flex;
+  /* display: flex; */
   /* width: 80%; */
   padding: 10px 0;
 
+}
+
+.priceName {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  padding: 0 50px;
+  border: thick solid red;
+  margin-bottom: 5px;
+  
+}
+.priceName p {
+  margin-top: 5px;
 }
 
 .btnContainer .styleBtn {
