@@ -84,7 +84,7 @@ header nav li a{
 
 
 main {
-  padding: 20px;
+  padding: 20px 10px;
   margin-top: 50px;
 }
 
@@ -101,19 +101,24 @@ main {
 
 
 .styleContainer {
-  border: thick solid black;
+  border-bottom: 3px dotted black;
+  
   padding: 5px 15px;
+  margin: 10px;
+  width: 500px;
+  /* border-radius: 3px; */
+  
 }
 
 .sectionContainer {
   margin: 20px 0;
-  /* border: thick solid brown; */
+  /* border: thick solid yellow; */
 }
 
 .styleContainer .img img{
   max-width: 500px;
-  margin: 10px 15px;
- 
+  /* margin: 10px 15px; */
+  border-radius: 10px;
 }
 
 
@@ -133,25 +138,37 @@ main {
   display: flex;
   width: auto;
   justify-content: space-between;
-  padding: 0 50px;
-  border: thick solid red;
+  padding: 3px 0px;
+  /* border: thick solid red; */
   margin-bottom: 5px;
   
 }
 .priceName p {
   margin-top: 5px;
+  border-bottom: thick solid #4b4c2a;
 }
 
+
 .btnContainer .styleBtn {
-  padding: 7px;
-  width: 100px;
+  padding: 2px;
+  width: auto;
   text-align: center;
   font-weight: bolder;
-  margin: 0 auto;
   background-color: transparent;
   border: thin solid #4b4c2a;
   color: #4b4c2a;
   text-decoration: none;
+  float: right;
+  text-wrap: nowrap;
+  font-size: 18px;
+}
+
+.btnContainer .styleBtn svg{
+  color: #4b4c2a;
+}
+.styleBtn svg:hover{
+  color: #fff;
+  border: thin solid green;
 }
 
 
@@ -160,4 +177,9 @@ main {
   background-color: #4b4c2a;
   color: #fff;
   cursor: pointer;
+}
+
+.btnContainer .styleBtn svg:hover {
+  color: #fff;
+
 }
