@@ -20,3 +20,231 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+
+header {
+  margin-top: 0;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: solid thick #000;
+  /* text-wrap: nowrap; */
+  position: fixed;
+  width: 100%;
+  background-color: #d6d4c5;
+
+  color: #4b4c2a;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 25px;
+}
+
+
+header nav li{
+ list-style: none;
+ display: inline-flex;
+ margin: 0 5px;
+ padding: 2px 8px;
+ text-wrap: nowrap;
+
+}
+header nav li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0 5px;
+  padding: 2px 8px;
+ 
+ }
+
+ 
+ header .navRight {
+   margin-right: 20px;
+   /* border: thin solid red; */
+
+ }
+
+ header .navRight nav li {
+   background-color: transparent;
+   border: 3px solid #4b4c29;
+ }
+
+ header .navRight nav li a {
+   background-color: transparent;
+   border: thin solid #4b4c29; 
+   width: 120px;
+
+ }
+ header .navRight nav li .contactbtn {
+   background-color: #4b4c29;
+   border: thin solid #fff; 
+   width: 120px;
+   color: #fff;
+
+ }
+
+
+ header .navRight nav li a:hover {
+   border: thin solid #4b4c29;
+   background-color: #4b4c29;
+  border-radius: 5px;
+
+ }
+
+
+
+
+
+ header .navRight nav li:hover{
+   background-color: #d6d4c5;
+   border-radius: 5px;
+ }
+
+ 
+ 
+ header nav li a{
+   text-decoration: none;
+   color: #4b4c29;
+   font-weight: bolder;
+   /* width: 100px; */
+   text-align: center;
+ }
+ 
+
+ header nav li a:hover{
+   color: #fff;
+ }
+
+
+#brandName {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: bolder;
+  color: #4b4c29;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+main {
+  /* border: thick solid blue; */
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.parent {
+  border: thin solid #4b4c2a;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  width: 60%;
+  height: 70vh;
+}
+
+.parent h1 {
+ text-align: center;
+}
+
+.formContainer {
+  /* border: thick solid red; */
+  width: 50%;
+  border-right: thin solid #4b4c2a;
+
+}
+
+#form {
+  /* border: thick solid black; */
+  padding: 5px 25px;
+}
+
+
+.image {
+  background-image: url('images/men traditional/STRIPE AGBADA WITH MULTI-COLOURED EMBROIDERY AND MATCHING CAP.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: thick solid green; */
+  width: 50%;
+}
+
+label {
+  display: block;
+  /* padding: 3px 0; */
+}
+
+.inpField {
+  border: 2px solid #4b4c2a;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  background-color: #d6d4c5;
+}
+
+.btn {
+  padding: 7px;
+  background-color: transparent;
+  width: 100%;
+  color: #4b4c2a;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  background-color: #4b4c2a;
+  color: #fff;
+}
+
+.loginNote {
+  margin: 20px 0;
+  margin-left: 30px;
+}
+
+.lineBox {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  /* border: thick solid red; */
+  justify-content: center;
+}
+
+.lineBox hr {
+  display: inline-flex;
+  width: 170px;
+  border: 1px solid #4b4c2a;
+  margin: 0 5px 3px 5px;
+}
+
+.registerBtnContainer {
+/* display:flex; */
+/* border: thick solid purple; */
+width: 100%;
+height: 15vh;
+
+}
+
+
+.registerBtn {
+  display: block;
+  padding: 7px;
+  background-color: transparent;
+  width: 70%;
+  color: #4b4c2a;
+  margin: 10px auto;
+  font-weight: bolder; 
+}
+
+.registerBtn:hover {
+  background-color: #4b4c2a;
+  color: #fff;
+}
