@@ -121,9 +121,14 @@ main {
   border-radius: 10px;
 }
 
+.styleContainer .img img:hover{
+  transform: translate(20px, 10px);
+}
+
 
 .img {
   background-color: #d6d4c5;
+  overflow: hidden;
 }
 
 
