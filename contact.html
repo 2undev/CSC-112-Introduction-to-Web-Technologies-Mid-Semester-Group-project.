@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="wclassth=device-wclassth, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <link rel="stylesheet" href="contact.css" />
     <link
@@ -63,7 +60,9 @@
     <!-- Main container -->
     <div class="mainContainer">
       <marquee id="Marq" behavior="scroll" direction="left">Welcome to Terra&Moda's Exclusive Fashion Event! </marquee>
+
       <h1 class="header">Contact us</h1>
+
       <p class="smallText">
         We love questions and feedback - and we're always happy to help!
         <br />
@@ -78,7 +77,12 @@
           <p class="smallText">
             Send us a message and we'll respond within 24 hours
           </p>
-          <form action="" class="formtag">
+
+
+          <form action="" id="contactUsForm" class="formtag">
+            
+            <small id="generalError"></small>
+
             <div class="topInputHolder">
               <div class="inputContainer">
                 <label for="fullname" class="formLabel">Full Name</label>
@@ -87,7 +91,9 @@
                   name=""
                   class="formInput"
                   placeholder="Type full name here"
+                  id="fullName"
                 />
+                <small id="nameError" class="inputError"></small>
               </div>
 
               <div class="inputContainer">
@@ -97,7 +103,9 @@
                   name=""
                   class="formInput"
                   placeholder="Type email here"
+                  id="email"
                 />
+                <small id="emailError" class="inputError"></small>
               </div>
             </div>
 
@@ -109,7 +117,9 @@
                   name=""
                   class="formInput"
                   placeholder="Phone number"
+                  id="phoneNumber"
                 />
+                <small id="phoneNumberError" class="inputError"></small>
               </div>
 
               <div class="inputContainer">
@@ -118,8 +128,10 @@
                   type="text"
                   name=""
                   class="formInput"
-                  placeholder="Organisation name"
+                  placeholder="Organization name"
+                  id="organization"
                 />
+                <small id="organizationError" class="inputError"></small>
               </div>
             </div>
 
@@ -129,6 +141,7 @@
                 id="content"
                 placeholder="Type your message here"
               ></textarea>
+              <small id="contentError" class="inputError"></small>
             </div>
             <input type="submit" class="btn" value="SUBMIT">
           </form>
@@ -196,14 +209,17 @@
           <!-- Bottom right container icon -->
           <div class="iconContainer">
             <div class="bottomIconContainer">
-               <a href="https://web.facebook.com/" type="button" class="icon"><i class="fa-brands fa-square-facebook"></i></a>
-               <a href="https://www.instagram.com/" type="button" class="icon"><i class="fa-brands fa-instagram"></i></a>
-               <a href="https://x.com/" type="button" class="icon"><i class="fa-brands fa-twitter"></i></a>
+               <a title="Facebook" href="https://web.facebook.com/" type="button" class="icon"><i class="fa-brands fa-square-facebook"></i></a>
+               <a title="Instagram" href="https://www.instagram.com/" type="button" class="icon"><i class="fa-brands fa-instagram"></i></a>
+               <a title="Twitter" href="https://x.com/" type="button" class="icon"><i class="fa-brands fa-twitter"></i></a>
             </div>
            
           </div>
         </div>
       </div>
     </div>
+
+
+    <script src="contact.js"></script>
   </body>
 </html>
