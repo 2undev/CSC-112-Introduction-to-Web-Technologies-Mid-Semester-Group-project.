@@ -86,9 +86,26 @@ form.addEventListener('submit', (event) => {
   console.log(users);  
 });
 
-if (!isValid) {
-  signupBtn = disabled()
-}
+
+
+
+
+
+
+
+// Login form configuration
+let loginBtn = document.getElementById('loginBtn');
+
+let loginForm = document.getElementById('loginForm');
+
+loginForm.addEventListener('click', (event)=> {
+  event.preventDefault();
+  
+  let formIsValid = true;
+
+  
+
+})
 
 
 

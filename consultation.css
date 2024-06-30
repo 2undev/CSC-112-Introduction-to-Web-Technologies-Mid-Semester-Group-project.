@@ -115,6 +115,7 @@ main {
   margin-top: 50px;
   width: 60%;
   margin: 70px auto;
+  line-height: 25px;
 }
 main a {
   text-decoration: none;
