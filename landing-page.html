@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing-page</title>
     <link rel="stylesheet" href="landing-page.css" />
+    <script src="https://kit.fontawesome.com/f85b76238d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -91,7 +92,9 @@
       </marquee>
       <section class="sectionContainer hero">
         <div class="videoContainer">
-          <video src="video/new.mp4" controls autoplay loop></video>
+          <video  autoplay controls loop muted>
+            <source src="video/new.mp4" type="video/mp4">
+          </video>
           <!-- <h1 class="heroHeading">Stitch by Stitch: Crafting Timeless Elegance</h1> -->
         </div>
       </section>
@@ -261,7 +264,8 @@
     </main>
 
     <footer>
-      <nav>
+      <div>
+        <nav>
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
@@ -274,10 +278,16 @@
           <li><a href="#update">UPDATES</a></li>
         </ul>
       </nav>
+      </div>
+      
 
-      <a href="">logo</a>
-      <a href="">logo</a>
-      <a href="">logo</a>
+     <div class="socialIcon">
+      <a title="Facebook" href="https://web.facebook.com/" type="button" class="icon"><i class="fa-brands fa-square-facebook"></i></a>
+      <a title="Instagram" href="https://www.instagram.com/" type="button" class="icon"><i class="fa-brands fa-instagram"></i></a>
+      <a title="Twitter" href="https://x.com/" type="button" class="icon"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+
+     <span>Terra&Moda © 2017 | All Rights Reserved. Website Design by Bruantech</span>
     </footer>
 
 
