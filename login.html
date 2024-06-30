@@ -6,11 +6,79 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Login Page</h1>
-  <p>
-    this is where we will display the login form for users who has registered to login to their account
-  </p>
-  <small>New user?</small>
- <a type="button" href="signup.html">Create account</a>
+ 
+  <header>
+    <div class="navLeft">
+      <nav>
+        <ul>
+          <li> <img src="" alt="Logo" />logo</li>
+          <li><a href="" id="brandName">Terra&Moda</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="navRight">
+      <nav>
+        <ul>
+          <li><a type="button" class="contactbtn" id="loginButton" href="contact.html">CONTACT US</a></li>
+          <li><a type="button" id="loginButton" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <div class="parent">
+      <div class="formContainer">
+        <h1>Login </h1>
+        <form action="" id="form">
+
+          <small id="topErrorMessage"></small>
+         
+
+          <div class="inputContainer">
+            <label for="Email">Email</label>
+            <input type="email" id="email" class="inpField" placeholder="Enter Emial">
+            <small id="emailError" class="errorMessage"></small>
+          </div>
+         
+
+          <div class="inputContainer">
+            <label for="Password">Password</label>
+            <input type="password" id="password" class="inpField" placeholder="Password">
+            <small id="passwordError" class="errorMessage"></small>
+          </div>
+        
+          <input type="submit" id="signupBtn" class="btn" value="SIGN UP">
+        </form>
+
+        <p class="loginNote">
+          Don't have account? <span><a href="signup.html">Sign Up</a></span>
+        </p>
+
+     
+        <div class="lineBox">
+          <div class="borderLine"><hr></div><span>Or</span><div class="borderLine"> <hr></div>
+        </div>
+
+
+        <div class="registerBtnContainer">
+           <button id="googleBtn" class="registerBtn"><span class="icon"></span>Login with Google</button>
+        <button id="facebookBtn" class="registerBtn"><span class="icon"></span>Login with Facebook</button>
+        <button id="twitterBtn" class="registerBtn"><span class="icon"></span>login with Twitter</button>
+        </div>
+
+       
+      </div>
+
+
+
+      <div class="image">
+        
+      </div>
+    </div>
+  </main>
 </body>
 </html>
