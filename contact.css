@@ -226,11 +226,13 @@ header nav li a:hover{
 }
 
 .icon {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   /* width: 35px;
   height: 35px; */
   border: none;
-  background-color: #195822;
+  /* background-color: #195822; */
+  background-color: transparent;
+
   
 }
 
@@ -258,7 +260,7 @@ header nav li a:hover{
 
 .fa-brands {
   color: #fff;
-  font-size: 50px;
+  font-size: 60px;
 
 }
 
