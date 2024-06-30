@@ -249,15 +249,17 @@ footer a {
   width: 50%;
 }
 
-.newsletter button {
+.newsletter #subscribeBtn {
   padding: 10px 7px;
-  border: thin solid #4b4c29;
+  border: 2px solid #4b4c29;
   border-radius: 5px;
   background-color: transparent;
   font-weight: bolder;
+  width: 100px;
+  color: #fff;
 }
 
-.newsletter button:hover{
+.newsletter #subscribeBtn:hover{
   background-color: #4b4c29;
   color: #fff;
 }
