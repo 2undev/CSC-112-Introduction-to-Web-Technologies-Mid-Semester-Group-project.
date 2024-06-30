@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   /* overflow: hidden; */
-  overflow: auto;
+  /* overflow: auto; */
 }
 body {
 
@@ -141,6 +141,7 @@ header nav li a:hover{
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  margin-top: 30px;
 }
 
 .smallHeader {
@@ -264,17 +265,19 @@ header nav li a:hover{
 
 }
 
-/* 
+
+
 #Marq {
   font-size: 50px;
   font-weight: bolder;
-  font-style: italic;
+  /* font-style: italic; */
   color: #4b4c29;
-  text-shadow: #000 2px 6px;
- position: absolute;
- margin-top: 0px;
+  /* text-shadow: #000 2px 6px; */
+ position: fixed;
+ margin-top: 15px;
+ /* padding-bottom: 20px; */
  
-} */
+}
 
 
 

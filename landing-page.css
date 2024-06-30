@@ -264,9 +264,23 @@ footer a {
 
 .videoContainer {
   /* border: thick solid red; */
-  height: 80vh;
+  height: 60vh;
   overflow: hidden;
   
+}
+
+
+
+#Marq {
+  font-size: 30px;
+  font-weight: bolder;
+  /* font-style: italic; */
+  /* color: #4b4c29; */
+  /* text-shadow: #000 2px 6px; */
+ position: fixed;
+ margin-top: 15px;
+color: #fff;
+ 
 }
 
 /* .heroHeading {
