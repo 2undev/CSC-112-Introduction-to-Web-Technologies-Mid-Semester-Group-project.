@@ -32,6 +32,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #d6d4c5;
+  z-index: 1;
 }
 
 header nav li{

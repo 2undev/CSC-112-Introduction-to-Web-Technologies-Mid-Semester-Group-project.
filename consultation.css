@@ -30,6 +30,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #d6d4c5;
+  z-index: 1;
 }
 
 
@@ -195,29 +196,6 @@ section button {
   margin-right: 10px;
 }
 
-footer {
-  display: flex;
-width: 100%;
-padding: 20px;
-background-color: #4b4c2a;
-justify-content: center;
-align-items: center;
-}
-
-footer nav li {
-  list-style: none;
-  display: inline-flex;
-  margin: 0 5px;
-  padding: 2px 8px;
-  justify-content: space-between;
-
-}
-
-footer nav li a {
-  text-decoration: none;
-  color: #fff;
- }
-
 
  .wallpaper {
   background-image: url('images/wallbackground/wall2.png');
@@ -227,3 +205,115 @@ footer nav li a {
   height: 50vh;
   margin-bottom: 50px;
  }
+
+
+
+.newsletter {
+  background-image: url("images/wallbackground/hand-pressing-envelope-that-is-sent-world.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 40px;
+  height: 40vh;
+  padding: 0 10px;
+  padding-top: 90px;
+  overflow: hidden;
+}
+
+.newsletter h1 {
+  font-size: 3rem;
+  padding: 10px 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+.newsletter p {
+  padding: 10px 0;
+}
+
+.newsletter input {
+  padding: 10px 7px;
+  border: thin solid #4b4c29;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.newsletter #subscribeBtn {
+  padding: 10px 7px;
+  border: 2px solid #4b4c29;
+  /* border-radius: 5px; */
+  background-color: #4b4c29;
+  font-weight: bolder;
+  width: 150px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.newsletter #subscribeBtn:hover {
+  background-color: #4b4c296a;
+  color: #4b4c2a;
+}
+
+#subscribeError {
+  margin: 10px 0;
+  color: red;
+  display: block;
+}
+
+
+
+footer {
+  background-color: #4b4c29;
+  overflow: hidden;
+}
+
+footer nav{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  /* background-color: #4b4c2a; */
+  justify-content: center;
+  align-items: center;
+}
+footer .socialIcon{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  /* background-color: #4b4c2a; */
+  justify-content: center;
+  align-items: center;
+  /* border: thick solid red; */
+}
+
+.fa-brands {
+  color: #fff;
+  font-size: 60px;
+  margin: 5px 50px;
+
+}
+
+footer nav li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 5px;
+  padding: 2px 8px;
+  justify-content: space-between;
+}
+footer nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+.copyright {
+  /* border: thick solid red; */
+  background-color: #d6d4c5;
+  color: #4b4c2a;
+  font-weight: bold;
+  text-align: center;
+}

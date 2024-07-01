@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultation</title>
     <link rel="stylesheet" href="consultation.css" />
+    <script src="https://kit.fontawesome.com/f85b76238d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -163,7 +164,7 @@
 
           <div class="inputContainer">
             <label for="description">Consultation Description</label>
-            <textarea name="consultation_description" id="consultation_description" placeholder="Consultation Description"></textarea>
+            <textarea name="consultation_description" id="consultation_description" placeholder="Write your consultation message here"></textarea>
           </div>
 
           <div class="inputMainContainer">
@@ -187,25 +188,55 @@
           <button type="submit">SEND</button>
         </form>
       </section>
+
     </main>
+    <section class="sectionContainer newsletter">
+      <h1>Subscribe to our newsletter</h1>
+      <p>
+        Stay up to date with the latest trends and exclusive offers. Sign up
+        now!
+      </p>
+      <form action="" id="subscribeForm">
+        <div>
+          <input type="email" id="subscribeInput" name="email" placeholder="Enter your email" />
+        </div>
+          <small id="subscribeError"></small>
+       
+        <input type="submit" id="subscribeBtn" value="SUBSCRIBE">
+        
+      </form>
+    </section>
+   
+
     <footer>
-      <nav>
+      <div>
+        <nav>
         <ul>
           <li><a href="#">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#men">MEN </a></li>
-          <li><a href="#women">WOMEN</a></li>
-          <li><a href="#bridal">BRIDAL</a></li>
-          <li><a href="#shoes">SHOES</a></li>
-          <li><a href="#collection">UPCOMING EVENT</a></li>
+          <li><a href="about">ABOUT</a></li>
+          <li><a href="men">MEN </a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="bridal.html">BRIDAL</a></li>
+          <li><a href="shoes.html">SHOES</a></li>
+          <li><a href="upcomming_event.html">UPCOMING EVENT</a></li>
           <li><a href="contact.html">CONTACT US</a></li>
-          <li><a href="#update">>BOOK CONSULTATION</a></li>
+          <li><a href="consultation.html">BOOK CONSULTATION</a></li>
+          <li><a href="bot.html">BOARD OF TRUSTY</a></li>
         </ul>
       </nav>
+      </div>
+      
 
-      <a href="">logo</a>
-      <a href="">logo</a>
-      <a href="">logo</a>
+     <div class="socialIcon">
+      <a title="Facebook" href="https://web.facebook.com/" type="button" class="icon"><i class="fa-brands fa-square-facebook"></i></a>
+      <a title="Instagram" href="https://www.instagram.com/" type="button" class="icon"><i class="fa-brands fa-instagram"></i></a>
+      <a title="Twitter" href="https://x.com/" type="button" class="icon"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+
     </footer>
+    <p class="copyright">Copyright &copy <spa id="year"></spa> Terra$Modal, Africa. All Rights Reserved. Website Design by TechCraftor</p>
+
+
+    <script src="landing-page.js"></script>
   </body>
 </html>

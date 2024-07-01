@@ -28,3 +28,8 @@ subscribeForm.addEventListener('submit', (event)=>{
 
   console.log(subscribers);
 })
+
+
+let date = new Date();
+let currentYear = date.getFullYear()
+document.getElementById('year').textContent = currentYear
