@@ -135,15 +135,15 @@
         <form action="">
           <div class="inputContainer">
             <label for="full_name">Full Name</label>
-            <input type="text" placeholder="Enter your Full name (required)">
+            <input type="text" placeholder="Enter your Full name">
           </div>
           <div class="inputContainer">
             <label for="email">Email</label>
-            <input type="text" placeholder="Enter your email (required)">
+            <input type="email" placeholder="Enter your email ">
           </div>
           <div class="inputContainer">
             <label for="phone_number">Phone Number</label>
-            <input type="text" placeholder="Enter your phone number (required)">
+            <input type="number" placeholder="Enter your phone number ">
           </div>
           <div class="inputContainer">
             <label for="date">
@@ -189,23 +189,23 @@
         </form>
       </section>
 
+      <section class="sectionContainer newsletter">
+        <h1>Subscribe to our newsletter</h1>
+        <p>
+          Stay up to date with the latest trends and exclusive offers. Sign up
+          now!
+        </p>
+        <form action="" id="subscribeForm">
+          <div>
+            <input type="email" id="subscribeInput" name="email" placeholder="Enter your email" />
+          </div>
+            <small id="subscribeError"></small>
+         
+          <input type="submit" id="subscribeBtn" value="SUBSCRIBE">
+          
+        </form>
+      </section>
     </main>
-    <section class="sectionContainer newsletter">
-      <h1>Subscribe to our newsletter</h1>
-      <p>
-        Stay up to date with the latest trends and exclusive offers. Sign up
-        now!
-      </p>
-      <form action="" id="subscribeForm">
-        <div>
-          <input type="email" id="subscribeInput" name="email" placeholder="Enter your email" />
-        </div>
-          <small id="subscribeError"></small>
-       
-        <input type="submit" id="subscribeBtn" value="SUBSCRIBE">
-        
-      </form>
-    </section>
    
 
     <footer>
@@ -233,8 +233,8 @@
       <a title="Twitter" href="https://x.com/" type="button" class="icon"><i class="fa-brands fa-twitter"></i></a>
      </div>
 
+     <p class="copyright">Copyright &copy <spa id="year"></spa> Terra$Modal, Africa. All Rights Reserved. Website Design by TechCraftor</p>
     </footer>
-    <p class="copyright">Copyright &copy <spa id="year"></spa> Terra$Modal, Africa. All Rights Reserved. Website Design by TechCraftor</p>
 
 
     <script src="landing-page.js"></script>

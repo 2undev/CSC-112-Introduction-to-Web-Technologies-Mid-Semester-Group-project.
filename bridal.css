@@ -115,7 +115,7 @@ main {
 
 .sectionContainer {
   margin: 20px 0;
-  /* border: thick solid yellow; */
+  border: thick solid yellow;
 }
 
 
@@ -194,6 +194,26 @@ main {
 }
 
 
+/* #Marq {
+  font-size: 60px;
+  font-weight: bolder;
+  position: fixed;
+  margin-top: 15px;
+  color: #000;
+} */
+
+
+#Marq {
+  font-size: 50px;
+  font-weight: bolder;
+  /* font-style: italic; */
+  color: #4b4c29;
+  /* text-shadow: #000 2px 6px; */
+ position: fixed;
+ margin-top: 15px;
+ /* padding-bottom: 20px; */
+ 
+}
 
 
 .newsletter {

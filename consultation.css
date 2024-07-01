@@ -7,8 +7,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
-  overflow-y: auto;
+
+ 
 }
 
 body {
@@ -19,6 +19,8 @@ body {
   font-weight: bold;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  overflow-x: hidden;
+
 }
 
 
@@ -109,15 +111,32 @@ header nav li a{
 .top {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  padding: 10px 0;
 }
 
-main {
+/* main {
   padding: 20px;
   margin-top: 50px;
   width: 60%;
   margin: 70px auto;
   line-height: 25px;
+} */
+
+main {
+  /* border: thick solid red; */
+  width: 100%;
+  /* height: 100vh; */
+  display: block;
+  padding: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  line-height: 30px;
+ 
 }
+
+
+
 main a {
   text-decoration: none;
   color: red;
@@ -208,17 +227,28 @@ section button {
 
 
 
+ #Marq {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #4b4c29;
+ position: fixed;
+ margin-top: 15px;
+ /* border: thick solid red; */
+ padding: 10px;
+}
+
+
 .newsletter {
   background-image: url("images/wallbackground/hand-pressing-envelope-that-is-sent-world.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 0 40px;
+  margin: 20px 0 0 0;
   height: 40vh;
-  padding: 0 10px;
+  padding: 10 0px;
   padding-top: 90px;
-  overflow: hidden;
+ /* border: thick solid red; */
 }
 
 .newsletter h1 {
@@ -266,12 +296,13 @@ section button {
 
 footer {
   background-color: #4b4c29;
-  overflow: hidden;
+
+  /* border: thick solid red; */
 }
 
 footer nav{
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   padding: 20px;
   /* background-color: #4b4c2a; */
   justify-content: center;

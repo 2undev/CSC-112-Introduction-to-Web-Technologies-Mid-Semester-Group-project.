@@ -193,6 +193,18 @@ main {
 
 
 
+#Marq {
+  font-size: 50px;
+  font-weight: bolder;
+  /* font-style: italic; */
+  color: #4b4c29;
+  /* text-shadow: #000 2px 6px; */
+ position: fixed;
+ margin-top: 15px;
+ /* padding-bottom: 20px; */
+ 
+}
+
 .newsletter {
   background-image: url("images/wallbackground/hand-pressing-envelope-that-is-sent-world.jpg");
   background-position: center;
