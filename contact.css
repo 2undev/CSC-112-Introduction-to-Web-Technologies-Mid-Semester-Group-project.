@@ -16,6 +16,15 @@ body {
 
 background-color: #d6d4c5;
 color: #4b4c2a;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-size: x-large; */
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  overflow: hidden;
+  overflow-y: auto;
+
 }
 
 header {
@@ -28,13 +37,13 @@ header {
   width: 100%;
   background-color: #d6d4c5;
 
-  color: #4b4c2a;
+  /* color: #4b4c2a;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  line-height: 25px;
+  line-height: 25px; */
 }
 
 

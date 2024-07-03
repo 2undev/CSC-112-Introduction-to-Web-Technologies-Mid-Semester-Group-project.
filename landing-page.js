@@ -32,4 +32,12 @@ subscribeForm.addEventListener('submit', (event)=>{
 
 let date = new Date();
 let currentYear = date.getFullYear()
+
 document.getElementById('year').textContent = currentYear
+// document.querySelectorAll('small:[.cardDate]').textContent = date.toDateString()
+
+const cardDate = document.querySelectorAll('.cardDate')
+
+cardDate.forEach(card => {
+  card.textContent = date.toDateString()
+})
