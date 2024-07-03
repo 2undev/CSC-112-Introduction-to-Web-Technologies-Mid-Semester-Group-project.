@@ -16,7 +16,7 @@ body {
   color: #4b4c2a;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   overflow-x: hidden;
@@ -175,7 +175,7 @@ padding: 10px 0;
 }
 .inputContainer textarea {
 width: 100%;
-height: 200px;
+height: 100px;
 border: none;
 border-bottom: #4b4c2a 2px solid;
 background-color: transparent !important;
@@ -191,7 +191,7 @@ section h1 {
   /* border-bottom: #4b4c2a 2px solid; */
   /* max-width: 300px; */
 }
-section button {
+section .submitButton {
   width: 170px;
   padding: 7px;
   border: 3px solid #4b4c2a;
@@ -202,6 +202,11 @@ section button {
   margin-top: 10px;
   font-weight: bolder;
   font-size: larger;
+ 
+}
+section .submitButton:hover {
+background-color: #4b4c29;
+color: #fff;
  
 }
 
@@ -347,4 +352,25 @@ footer a {
   color: #4b4c2a;
   font-weight: bold;
   text-align: center;
+}
+
+
+
+#generalError {
+  padding: 10px 0;
+  color: red;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.inputError {
+  color: red;
+  padding: 5px 0;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
 }

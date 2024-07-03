@@ -76,6 +76,9 @@
             or existing styles. This category requires no payment and the client
             meets with the Design Associate.
           </li>
+
+          <br>
+
           <li>
             <b>CATEGORY B CONSULTATION:</b> 
             <br>
@@ -85,6 +88,9 @@
             consultation and it attracts a fee of NGN 45,000 per hour which is
             not deductible from the client's final bill.
           </li>
+          
+          <br>
+
           <li>
             <b>CATEGORY C CONSULTATION:</b> 
             <br>
@@ -94,6 +100,9 @@
             80,000 per hour and will not be deducted from the final bill.
           </li>
         </ol>
+
+
+        <br>
 
         <h1>CONSULTATION POLICY</h1>
         <p class="sectionP">
@@ -107,7 +116,6 @@
         </p>
        
         <br />
-        <br />
 
         Consultations are usually between the client and the design team.
         Clients should refrain from bringing more tha one person as company to a
@@ -118,39 +126,55 @@
         In a situation where the client is a couple and wish to wear matching
         outfits, they are advised to come together for the consultation.
 
+        <br>
+        <br>
         <h1>ADHERENCE TO TIME</h1>
 
         <p class="sectionP">
           Kindly note that consultation slots are to be strictly adhered to; if you arrive beyond 15 minutes into your allotted slot, we are unable to guarantee that the consultation will take place. Therefore, we strongly urge that you contact us well in advance if you are running late for your consultation.
         </p>
 
+
+        <br>
+        
         <h1>RESCHEDULING</h1>
 
         <p class="sectionP">
           Should you wish to cancel or reschedule your appointment to a later date, we require a 24 hour notice period after which we will be unable to guarantee another slot immediately.
         </p>
+        <br>
       </section>
       <section class="consultation">
         <h1>Book a Consultation</h1>
-        <form action="">
+
+        <small id="generalError"></small>
+
+        <form action="" id="consultationForm">
+          <fieldset>
           <div class="inputContainer">
-            <label for="full_name">Full Name</label>
-            <input type="text" placeholder="Enter your Full name">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" name="name" type="text" placeholder="Enter your Full name">
+            <small id="nameError" class="inputError"></small>
           </div>
+
           <div class="inputContainer">
             <label for="email">Email</label>
-            <input type="email" placeholder="Enter your email ">
+            <input id="email" name="email" type="email" placeholder="Enter your email ">
+            <small id="emailError" class="inputError"></small>
           </div>
+
           <div class="inputContainer">
             <label for="phone_number">Phone Number</label>
-            <input type="number" placeholder="Enter your phone number ">
+            <input id="phone_number" name="number" type="number" placeholder="Enter your phone number ">
+            <small id="phoneError" class="inputError"></small>
           </div>
+
           <div class="inputContainer">
-            <label for="date">
-              Consultation Date (a member of our team will get in touch to confirm your date or suggest an alternative date)
-            </label>
-            <input type="date" name="date" id="date">
+            <label for="date">Consultation Date (a member of our team will get in touch to confirm your date or suggest an alternative date)</label>
+            <input type="date" name="date" name="date" id="appointmentDate" placeholder="Select Date">
+            <small id="dateError" class="inputError"></small>
           </div>
+
           <div class="inputContainer">
             <label for="phone_number">Select Consultation Type</label>
             <select name="consultation_type"  id="select_consultation_type" title="consultation_type">
@@ -160,32 +184,39 @@
               <option value="Consultation C">Consultation C</option>
               <option value="Bridal Consultation">Bridal Consultation</option>
             </select>
+
+            <small id="consultationTypeError" class="inputError"></small>
           </div class="inputContainer">
 
           <div class="inputContainer">
             <label for="description">Consultation Description</label>
             <textarea name="consultation_description" id="consultation_description" placeholder="Write your consultation message here"></textarea>
+
+            <small id="consultationDescriptionError" class="inputError"></small>
           </div>
 
           <div class="inputMainContainer">
             <p class="sectionP">How would you like to make Payment?</p>
+
             <div class="radioContainer">
-              <input type="radio" class="radioInput" name="" id="free" value="Consultation A (Free)" title="radioInput">
+              <input type="radio" class="radioInput" name="payment" id="free" value="Consultation A (Free)" title="radioInput">
               <label for="free_consultation">Consultation A (Free)</label>
             </div>
 
             
             <div class="radioContainer">
-              <input type="radio" class="radioInput" name="" id="online_payment" value="Online Payment" title="radioInput>
+              <input type="radio" class="radioInput" name="payment" id="online_payment" value="Online Payment" title="radioInput>
               <label for="online_payment">Online Payment</label>
             </div>
 
             <div class="radioContainer">
-              <input type="radio" class="radioInput" name="" id="bank_transfer" value="Bank Transfer" title="radioInput>
+              <input type="radio" class="radioInput" name="payment" id="bank_transfer" value="Bank Transfer" title="radioInput>
               <label for="bank_transfer">Bank Transfer</label>
             </div>
+            <small class="inputError" id="paymentError"></small>
           </div>
-          <button type="submit">SEND</button>
+          <input type="submit" id="button" class="submitButton" value="SEND" >
+        </fieldset>
         </form>
       </section>
 
@@ -238,5 +269,6 @@
 
 
     <script src="landing-page.js"></script>
+    <script src="consultation.js"></script>
   </body>
 </html>
