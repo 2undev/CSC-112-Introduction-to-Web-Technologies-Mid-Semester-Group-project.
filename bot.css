@@ -107,10 +107,23 @@ main {
   max-width: 500px;
   margin: 10px 15px;
   height: 70vh;
+  border: thin solid #4b4c29;
+  border-radius: 5px;
+
+  border-radius: 18px;
+background: #d6d4c5;
+box-shadow:  5px 5px 10px #5a5a5a,
+             -5px -5px 10px #ffffff;
+ 
+}
+/* .styleContainer .img img{
+  max-width: 500px;
+  margin: 10px 15px;
+  height: 70vh;
   border: thick solid #4b4c29;
   border-radius: 5px;
  
-}
+} */
 
 
 
