@@ -30,6 +30,17 @@ contactUsForm.addEventListener("submit", (event) => {
     content: content.value,
   };
 
+   // Clear previous error messages
+   nameError.textContent = '';
+   emailError.textContent = '';
+   phoneNumberError.textContent = '';
+   organizationError.textContent = '';
+   contentError.textContent = '';
+   generalError.textContent = '';
+
+
+
+
   if (feedback.fullName === "") {
     nameError.textContent = " Please enter your name";
 
@@ -65,7 +76,13 @@ contactUsForm.addEventListener("submit", (event) => {
       generalError.textContent = "";
     }, 3000);
   } else {
-    usersFeedback.push(feedback);
+
+    let existingFeedback = JSON.parse(localStorage.getItem('usersFeedback')) || [];
+
+    existingFeedback.push(feedback);
+    localStorage.setItem('usersFeedback', JSON.stringify(existingFeedback));
+
+    contactUsForm.reset()
   }
 
   console.log(usersFeedback);

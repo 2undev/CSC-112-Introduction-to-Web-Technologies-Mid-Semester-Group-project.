@@ -76,14 +76,19 @@ form.addEventListener('submit', (event) => {
     
   } else {
 
-    // Add the user to the users array if the form is valid
-    users.push(user); 
+    // To prevent overriding the previous data been stored in the localStorage whenever we save data to it we need to first of all Retrieve the existing data that is stored in the localStorage then add new data to the localStorage
+    
+    let existingData = JSON.parse(localStorage.getItem('users') || []);
 
-    localStorage.setItem('users', JSON.stringify(users));
+   // Add the new user to the existing users array
+   existingData.push(user); 
+
+    localStorage.setItem('users', JSON.stringify(existingData));
+    window.location.href = 'login.html';
   }
 
   // Log the users array to the console
-  console.log(users);  
+  console.log(users); 
 });
 
 
@@ -95,8 +100,10 @@ form.addEventListener('submit', (event) => {
 
 // Login form configuration
 let loginBtn = document.getElementById('loginBtn');
-
 let loginForm = document.getElementById('loginForm');
+
+let loginEmail = document.getElementById('loginEmail')
+let loginPassword = document.getElementById('loginPassword')
 
 loginForm.addEventListener('click', (event)=> {
   event.preventDefault();

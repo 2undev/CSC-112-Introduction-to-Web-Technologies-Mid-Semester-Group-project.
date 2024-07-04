@@ -94,6 +94,7 @@ main {
   flex-wrap: wrap;
   /* border: thick solid brown; */
   justify-content: center;
+  /* justify-content: space-between; */
   /* align-items: center; */
 }
 
@@ -141,7 +142,7 @@ main {
   font-size: 100px;
   color: #4b4c2a60;
   /* border: thin solid red; */
-  margin: 0 40px;
+  /* margin: 0 40px; */
 }
 .sectionHeading a {
   text-decoration: none;
@@ -157,7 +158,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 40px;
   overflow: hidden;
 }
 
@@ -183,6 +183,7 @@ main {
 
 footer {
   background-color: #4b4c29;
+  margin: 0 15px;
 }
 
 footer nav{
@@ -234,11 +235,11 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 0 40px;
   height: 40vh;
   padding: 0 10px;
   padding-top: 90px;
   overflow: hidden;
+  width: 100%;
 }
 
 .newsletter h1 {
@@ -258,6 +259,7 @@ footer a {
   border: thin solid #4b4c29;
   border-radius: 5px;
   width: 50%;
+  background-color: transparent;
 }
 
 .newsletter #subscribeBtn {

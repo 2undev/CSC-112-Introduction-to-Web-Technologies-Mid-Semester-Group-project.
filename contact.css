@@ -189,7 +189,7 @@ header nav li a:hover{
   width: 100%;
   border: 3px solid #4b4c2a;
   border-radius: 7px;
-  background-color: #d6d4c5;
+  background-color: transparent;
 }
 
 .textContainer {

@@ -23,6 +23,7 @@ subscribeForm.addEventListener('submit', (event)=>{
    
   }else{
     subscribers.push(subscribeInput.value)
+    localStorage.setItem('subscribers', JSON.stringify(subscribers))
     subscribeInput.value = ''
   }
 

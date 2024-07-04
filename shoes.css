@@ -18,7 +18,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -87,8 +87,9 @@ header nav li a{
 
 
 main {
-  padding: 20px 10px;
-  margin-top: 50px;
+  padding: 10px 10px;
+  margin-top: 70px;
+  /* border: thick solid red; */
 }
 
 .innerContainer {
@@ -106,16 +107,18 @@ main {
 .styleContainer {
   border-bottom: 3px dotted black;
   
-  padding: 5px 15px;
+  padding: 5px;
   margin: 10px;
   width: 500px;
+  height: 500px;
   /* border-radius: 3px; */
   
 }
 
 .sectionContainer {
-  margin: 20px 0;
+  margin: 10px 0;
   /* border: thick solid yellow; */
+  /* width: 100%; */
 }
 
 
@@ -212,11 +215,13 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 0 40px;
   height: 40vh;
   padding: 0 10px;
   padding-top: 90px;
   overflow: hidden;
+
+  /* border: thick solid blue; */
+  width: 100%;
 }
 
 .newsletter h1 {
@@ -265,6 +270,8 @@ main {
 footer {
   background-color: #4b4c29;
   overflow: hidden;
+  /* border: thick solid #000; */
+  margin: 0 10px;
 }
 
 footer nav{
@@ -314,4 +321,16 @@ footer a {
   color: #4b4c2a;
   font-weight: bold;
   text-align: center;
+}
+
+
+.shoeHero {
+  background-image: url('images/wallbackground/photo-designer-shoe-section-boutique_778780-1199.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 90%; */
+  height: 50vh;
+  margin: 0 auto;
+ 
 }
