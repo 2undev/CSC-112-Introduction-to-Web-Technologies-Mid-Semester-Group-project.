@@ -27,23 +27,17 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0px;
+  padding: 10px 0px;
   border-bottom: solid thick #000;
-  /* text-wrap: nowrap; */
   position: fixed;
   width: 100%;
   background-color: #d6d4c5;
 
-  /* color: #4b4c2a;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  line-height: 25px; */
+  z-index: 1;
 }
 
 
@@ -51,40 +45,43 @@ header nav li{
  list-style: none;
  display: inline-flex;
  margin: 0 5px;
- padding: 2px 8px;
+}
 
+
+header .navMiddle{
+ margin-top: 8px;
 }
-header nav li:hover{
- background-color: #4b4c2a;
- border-radius: 50px;
+
+
+header .navMiddle nav li:hover{
+  /* background-color: #4b4c2a; */
+  /* background-color: #d6d4c5; */
+  border-radius: 50px;
+  color: #fff;
 }
+
+
+header .navMiddle nav li a:hover{
+  background-color: #4b4c2a;
+  /* background-color: #d6d4c5; */
+  border-radius: 50px;
+  color: #fff;
+}
+
 
 
 header nav li a{
   text-decoration: none;
   color: #4b4c29;
   font-weight: bolder;
-  
-  
-}
-header nav li a:hover{
-  color: #fff;
-}
-
-/* .navLeft nav li a:hover {
-  background-color: #4b4c2a;
-
-} */
-.navLeft nav li a:hover {
-  background-color: transparent !important;
-  border-radius: 0;
+  padding: 5px 7px;
 }
 
 
 #brandName {
   font-size: 1.5em;
   text-decoration: none;
-  padding: 5px;
+  margin-top: 5px;
   font-weight: bolder;
   color: #4b4c29;
   font-family: "Playfair Display", serif;
@@ -92,10 +89,6 @@ header nav li a:hover{
   font-style: normal;
 }
 
-#brandName:hover {
-  background-color: transparent;
-  color: #fff;
-}
 
 .mainContainer {
   /* border: thick solid red; */

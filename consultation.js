@@ -157,7 +157,14 @@ if(!formIsValid) {
   }, 3000)
 
 }else {
-  consultationAppointment.push(client)
+
+  let previousConsultationAppointment = JSON.parse(localStorage.getItem('consultationAppointment')) || [];
+
+  previousConsultationAppointment.push(client)
+
+  localStorage.setItem('consultationAppointment', JSON.stringify(previousConsultationAppointment))
+
+  consultationForm.reset()
 }
 
 console.log(consultationAppointment);
