@@ -7,7 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  overflow-y: auto;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -28,7 +28,6 @@ header {
   padding: 10px 0px;
   border-bottom: solid thick #000;
   position: fixed;
-  top: 0;
   width: 100%;
   background-color: #d6d4c5;
 
@@ -88,33 +87,149 @@ header nav li a{
 
 main {
   padding: 20px 10px;
-  margin-top: 70px;
-  /* border: thick solid red; */
+  margin-top: 50px;
 }
 
-.hero {
-  background-image: url('images/wallbackground/about us.jpg');
+.suitHero {
+  background-image: url('images/wallbackground/Suit-Collection-2022.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
 }
 
 .innerContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
   flex-wrap: wrap;
   /* border: thick solid brown; */
-  margin: 5px 15px;
-  line-height: 25px;
-  font-size: larger;
+  justify-content: center;
+}
+
+
+.styleContainer {
+  border-bottom: 3px dotted black;
+  
+  padding: 5px 15px;
+  margin: 10px;
+  width: 500px;
+  /* border-radius: 3px; */
+  
+}
+
+.sectionContainer {
+  margin: 20px 0;
+  /* border: thick solid yellow; */
+}
+
+.styleContainer .img img{
+  max-width: 500px;
+  /* margin: 10px 15px; */
+  border-radius: 10px;
+}
+
+.styleContainer .img img:hover{
+  transform: translate(20px, 10px);
+}
+
+
+.img {
+  background-color: #d6d4c5;
   overflow: hidden;
-  overflow-y: scroll;
+}
+
+
+.btnContainer {
+  /* display: flex; */
+  /* width: 80%; */
+  padding: 10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+.btnContainers {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  text-wrap: nowrap;
+}
+
+.btnContainers .styleBtnGroup {
+  padding: 7px;
+  width: 170px;
   text-align: center;
+  font-weight: bolder;
+  margin: 0 auto;
+  background-color: transparent;
+  border: thin solid #4b4c2a;
+  color: #4b4c2a;
+  text-decoration: none;
 }
-.innerContainer h1, h2{
-  margin: 35px 0 10px 0;
+
+.btnContainers .styleBtnGroup:hover {
+  background-color: #4b4c2a;
+  color: #fff;
+  cursor: pointer;
 }
-.innerContainer ul li {
-  margin: 10px 0;
+
+
+
+.priceName {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  padding: 3px 0px;
+  /* border: thick solid red; */
+  margin-bottom: 5px;
+  
+}
+.priceName p {
+  margin-top: 5px;
+  border-bottom: thick solid #4b4c2a;
+}
+
+
+.btnContainer .styleBtn {
+  padding: 2px;
+  width: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: transparent;
+  border: thin solid #4b4c2a;
+  color: #4b4c2a;
+  text-decoration: none;
+  float: right;
+  text-wrap: nowrap;
+  font-size: 18px;
+}
+
+.btnContainer .styleBtn svg{
+  color: #4b4c2a;
+}
+.styleBtn svg:hover{
+  color: #fff;
+  border: thin solid green;
+}
+
+
+
+.btnContainer .styleBtn:hover {
+  background-color: #4b4c2a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnContainer .styleBtn svg:hover {
+  color: #fff;
+
 }
 
 
@@ -136,7 +251,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 5px 15px;
+  /* margin: 0 40px; */
   height: 40vh;
   padding: 0 10px;
   padding-top: 90px;
@@ -157,10 +272,9 @@ main {
 
 .newsletter input {
   padding: 10px 7px;
-  border: 3px solid #4b4c29;
+  border: thin solid #4b4c29;
   border-radius: 5px;
   width: 50%;
-  background-color: transparent;
 }
 
 .newsletter #subscribeBtn {
@@ -190,7 +304,7 @@ main {
 footer {
   background-color: #4b4c29;
   overflow: hidden;
-  margin: 0 25px;
+  margin: 0 10px;
 }
 
 footer nav{
@@ -242,9 +356,5 @@ footer a {
   text-align: center;
 }
 
-.contactVideo {
-  border: thick solid red;
-  width: auto;
-  height: 100vh;
-  justify-content: center;
-}
+
+

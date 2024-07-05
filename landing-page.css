@@ -90,12 +90,10 @@ main {
   display: flex;
   width: 100%;
   height: auto;
-  /* height: 100vh; */
   flex-wrap: wrap;
   /* border: thick solid brown; */
   justify-content: center;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+ 
 }
 
 .sectionContainer {
