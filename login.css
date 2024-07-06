@@ -226,22 +226,21 @@ label {
 }
 
 .registerBtnContainer {
-/* display:flex; */
-/* border: thick solid purple; */
-width: 100%;
-height: 15vh;
-
+  /* display:flex; */
+  /* border: thick solid purple; */
+  width: 100%;
+  height: auto;
+  text-wrap: nowrap;
 }
-
 
 .registerBtn {
   display: block;
   padding: 7px;
   background-color: transparent;
-  width: 70%;
+  width: 80%;
   color: #4b4c2a;
   margin: 10px auto;
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
 .registerBtn:hover {
@@ -259,4 +258,30 @@ height: 15vh;
   margin: 5px 0;
   color: red;
  
+}
+
+
+.fa-google {
+  font-size: 20px;
+  margin: 0 7px;
+  color: red;
+
+}
+.fa-square-facebook {
+  font-size: 20px;
+  margin: 0 7px;
+  color: blue;
+
+}
+.fa-twitter {
+  font-size: 20px;
+  margin: 0 7px;
+  color: black;
+
+}
+
+.signupText {
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
 }
