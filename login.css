@@ -249,13 +249,14 @@ height: 15vh;
   color: #fff;
 }
 
-.errorMessage {
+.loginErrorMessage {
   margin: 5px 0;
   color: red;
 }
 
 
-#topErrorMessage {
+#loginTopErrorMessage {
   margin: 5px 0;
   color: red;
+ 
 }

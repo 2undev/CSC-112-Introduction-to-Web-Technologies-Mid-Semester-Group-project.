@@ -84,35 +84,13 @@ form.addEventListener('submit', (event) => {
    existingData.push(user); 
 
     localStorage.setItem('users', JSON.stringify(existingData));
+
+    form.reset()
+    
+
     window.location.href = 'login.html';
   }
 
   // Log the users array to the console
   console.log(users); 
 });
-
-
-
-
-
-
-
-
-// Login form configuration
-let loginBtn = document.getElementById('loginBtn');
-let loginForm = document.getElementById('loginForm');
-
-let loginEmail = document.getElementById('loginEmail')
-let loginPassword = document.getElementById('loginPassword')
-
-loginForm.addEventListener('click', (event)=> {
-  event.preventDefault();
-  
-  let formIsValid = true;
-
-  
-
-})
-
-
-
