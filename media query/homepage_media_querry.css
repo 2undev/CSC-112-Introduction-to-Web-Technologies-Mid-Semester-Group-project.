@@ -1,0 +1,727 @@
+/* Extra small screen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 575.98px) {
+
+  body{
+    font-family: Arial, sans-serif;
+    background-color: #d3d2c3;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header {
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  header .navLeft li {
+    /* border: thin solid red; */
+    display: block;
+  }
+
+  header .navRight {
+    margin: 10px auto;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: thin solid #4b4c29;
+  }
+
+  #brandName {
+    font-size: 1.2em;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    /* border: thick solid red; */
+  }
+
+  .homepage {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* border: thick solid yellow; */
+  }
+
+  #Marq {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4b4c29;
+    /* position: absolute; */
+    position: fixed;
+    margin-top: 5px;
+  }
+
+  .banner {
+    display: block;
+    /* border: thick solid red; */
+    /* overflow: scroll; */
+  }
+
+  .leftContent {
+    width: 300px;
+    padding: 10px;
+    height: 180px;
+    line-height: 15px;
+    margin-top: 20px;
+    /* border: thick solid red; */
+    /* overflow: hidden; */
+  }
+
+  .leftContent h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4b4c29;
+    line-height: 50px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .rightContent {
+    width: auto;
+    margin-top: 5px;
+    height: 100vh;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 30px;
+    /* text-align: center; */
+    /* border: thick solid red; */
+  }
+
+  .rightContent p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+    /* color: #4b4c29; */
+    color: #4b4c2a;
+    margin-top: 10px;
+  }
+
+  #exploreBtn {
+    background-color: transparent;
+    padding: 7px;
+    border: thin solid;
+    cursor: pointer;
+    width: 70%;
+    font-weight: bolder;
+    text-decoration: none;
+    /* color: #4b4c29; */
+    color: #fff;
+    text-align: center;
+  }
+
+  .rightContent .homepageSuite {
+    /* border: thick solid blue; */
+    margin-top: 10px;
+    height: 400px;
+  }
+
+  .rightContent .homepageSuite img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: thin solid #4b4c29;
+    width: 100px;
+  }
+
+  #brandName {
+    font-size: 1.2em;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    /* border: thick solid red; */
+  }
+
+  .homepage {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* border: thick solid yellow; */
+  }
+
+  #Marq {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4b4c29;
+    /* position: absolute; */
+    position: fixed;
+    margin-top: 5px;
+  }
+
+  .banner {
+    display: block;
+    /* border: thick solid red; */
+    /* overflow: scroll; */
+  }
+
+  .leftContent {
+    width: 400px;
+    padding: 10px;
+    height: 250px;
+    line-height: 15px;
+    margin-top: 20px;
+    /* border: thick solid red; */
+    /* overflow: hidden; */
+  }
+
+  .leftContent h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #4b4c29;
+    line-height: 50px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .rightContent {
+    width: 100%;
+    margin-top: 5px;
+    height: 100vh;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 30px;
+    /* text-align: center; */
+    /* border: thick solid red; */
+  }
+
+  .rightContent p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+    /* color: #4b4c29; */
+    color: #4b4c2a;
+    margin-top: 20px;
+  }
+
+  #exploreBtn {
+    background-color: transparent;
+    padding: 7px;
+    border: thin solid #4b4c29;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bolder;
+    text-decoration: none;
+    /* color: #4b4c29; */
+    color: #fff;
+    text-align: center;
+  }
+
+  .rightContent .homepageSuite {
+    /* border: thick solid blue; */
+    margin-top: 10px;
+    height: 400px;
+  }
+
+  .rightContent .homepageSuite img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d2c3;
+    width: 100%;
+    /* overflow: auto; */
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px 10px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: thin solid #4b4c29;
+  }
+
+  #brandName {
+    font-size: 1.2em;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    /* border: thick solid red; */
+  }
+
+  .homepage {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* border: thick solid yellow; */
+  }
+
+  #Marq {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4b4c29;
+    /* position: absolute; */
+    position: fixed;
+    margin-top: 5px;
+  }
+
+  .banner {
+    display: flex;
+    /* border: thick solid red; */
+    /* overflow: scroll; */
+  }
+
+  .leftContent {
+    width: 400px;
+    padding: 5px;
+    height: 350px;
+    /* line-height: 25px; */
+    margin-top: 100px;
+    /* border: thick solid red; */
+    /* overflow: hidden; */
+  }
+
+  .leftContent h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    color: #4b4c29;
+    line-height: 70px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .rightContent {
+    width: 400px;
+    margin-top: 100px;
+    height: auto;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 5px;
+    line-height: 30px;
+    /* text-align: center; */
+    /* border: thick solid red; */
+  }
+
+  .rightContent p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+    /* color: #4b4c29; */
+    color: #4b4c2a;
+    margin-top: 20px;
+  }
+
+  #exploreBtn {
+    background-color: transparent;
+    padding: 7px;
+    border: thin solid #4b4c29;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bolder;
+    text-decoration: none;
+    /* color: #4b4c29; */
+    color: #fff;
+    text-align: center;
+  }
+
+  .rightContent .homepageSuite {
+    /* border: thick solid blue; */
+    margin-top: 140px;
+    height: 400px;
+  }
+
+  .rightContent .homepageSuite img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Large Devices(Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d2c3;
+    width: 100%;
+    /* overflow: auto; */
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px 10px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: thin solid #4b4c29;
+  }
+
+  #brandName {
+    font-size: 1.5em;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    /* border: thick solid red; */
+  }
+
+  .homepage {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* border: thick solid yellow; */
+  }
+
+  #Marq {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4b4c29;
+    /* position: absolute; */
+    position: fixed;
+    margin-top: 5px;
+  }
+
+  .banner {
+    display: flex;
+    /* border: thick solid red; */
+    /* overflow: scroll; */
+  }
+
+  .leftContent {
+    max-width: 50%;
+    padding: 5px;
+    height: 350px;
+    /* line-height: 25px; */
+    margin-top: 100px;
+    /* border: thick solid red; */
+    /* overflow: hidden; */
+  }
+
+  .leftContent h1 {
+    font-size: 75px;
+    font-weight: bolder;
+    color: #4b4c29;
+    line-height: 70px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .rightContent {
+    max-width: 40%;
+    margin-top: 110px;
+    height: auto;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 5px;
+    line-height: 40px;
+    /* text-align: center; */
+    /* border: thick solid red; */
+  }
+
+  .rightContent p {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    /* color: #4b4c29; */
+    color: #4b4c2a;
+    margin-top: 10px;
+  }
+
+  #exploreBtn {
+    background-color: transparent;
+    padding: 5px;
+    border: thin solid #4b4c29;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bolder;
+    text-decoration: none;
+    /* color: #4b4c29; */
+    color: #fff;
+    text-align: center;
+  }
+
+  .rightContent .homepageSuite {
+    /* border: thick solid blue; */
+    margin-top: 110px;
+    height: 400px;
+  }
+
+  .rightContent .homepageSuite img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+/* Extra large screen (Large Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d2c3;
+    width: 100%;
+    /* overflow: auto; */
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px 10px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: thin solid #4b4c29;
+  }
+
+  #brandName {
+    font-size: 1.5em;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    /* border: thick solid red; */
+  }
+
+  .homepage {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* border: thick solid yellow; */
+  }
+
+  #Marq {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    color: #4b4c29;
+    /* position: absolute; */
+    position: fixed;
+    margin-top: 5px;
+  }
+
+  .banner {
+    display: flex;
+    /* border: thick solid red; */
+    /* overflow: scroll; */
+  }
+
+  .leftContent {
+    max-width: 50%;
+    padding: 5px;
+    height: 300px;
+    /* line-height: 25px; */
+    margin-top: 100px;
+    /* border: thick solid red; */
+    /* overflow: hidden; */
+  }
+
+  .leftContent h1 {
+    font-size: 85px;
+    font-weight: bolder;
+    color: #4b4c29;
+    line-height: 90px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .rightContent {
+    max-width: 40%;
+    margin-top: 110px;
+    height: auto;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 5px;
+    line-height: 40px;
+    /* text-align: center; */
+    /* border: thick solid red; */
+  }
+
+  .rightContent p {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    /* color: #4b4c29; */
+    color: #4b4c2a;
+    margin-top: 10px;
+  }
+
+  #exploreBtn {
+    background-color: transparent;
+    padding: 5px;
+    border: thin solid #4b4c29;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #4b4c29;
+    text-align: center;
+  }
+
+  .rightContent .homepageSuite {
+    /* border: thick solid blue; */
+    margin-top: 90px;
+    height: 450px;
+  }
+
+  .rightContent .homepageSuite img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+  }
+}

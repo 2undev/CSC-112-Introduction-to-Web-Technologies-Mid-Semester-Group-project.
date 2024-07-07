@@ -84,6 +84,7 @@ header nav li a {
 main {
   padding: 10px 10px 0 10px;
   margin-top: 70px;
+  /* border: thick solid red; */
 }
 
 .innerContainer {
