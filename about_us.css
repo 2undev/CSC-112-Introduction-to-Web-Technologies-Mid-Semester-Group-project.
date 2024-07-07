@@ -87,7 +87,7 @@ header nav li a{
 
 
 main {
-  padding: 20px 10px;
+  padding: 10px 10px 0 10px;
   margin-top: 70px;
   /* border: thick solid red; */
 }
@@ -117,7 +117,10 @@ main {
   margin: 10px 0;
 }
 
-
+.sectionContainer {
+  margin: 10px 10px 0 10px;
+  /* border: thick solid yellow; */
+}
 
 
 #Marq {
@@ -136,7 +139,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 5px 15px;
+  margin-top: 20px;
   height: 40vh;
   padding: 0 10px;
   padding-top: 90px;
@@ -190,7 +193,7 @@ main {
 footer {
   background-color: #4b4c29;
   overflow: hidden;
-  margin: 0 25px;
+  margin: 0 20px;
 }
 
 footer nav{

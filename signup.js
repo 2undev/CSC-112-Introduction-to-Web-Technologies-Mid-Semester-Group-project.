@@ -80,15 +80,32 @@ form.addEventListener('submit', (event) => {
     
     let existingData = JSON.parse(localStorage.getItem('users') || []);
 
-   // Add the new user to the existing users array
-   existingData.push(user); 
+    let foundUser = existingData.find(savedUser => {
+      return savedUser.email === user.email 
+    })
 
-    localStorage.setItem('users', JSON.stringify(existingData));
+    if (foundUser) {
+      topErrorMessage.textContent = 'User with this email already exist';
 
-    form.reset()
-    
+      setTimeout(()=>{
+        topErrorMessage.textContent = ''
+      }, 2000)
 
-    window.location.href = 'login.html';
+      form.reset();
+    }else {
+      // Add the new user to the existing users array
+      existingData.push(user); 
+      
+      localStorage.setItem('users', JSON.stringify(existingData));
+
+      let topError = document.querySelector('.topErrorMessage')
+      
+      topError.textContent = 'Congratulation! Signup was successful';
+
+    setTimeout(()=>{
+      window.location.href = 'login.html';
+    },3000)
+    }
   }
 
   // Log the users array to the console

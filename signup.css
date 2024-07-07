@@ -237,20 +237,27 @@ label {
   color: red;
 }
 
+.topErrorMessage {
+  margin: 5px 0;
+  color: green;
+  display: flex;
+  text-align: center;
+}
+
 .fa-google {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0 7px;
   color: red;
 
 }
 .fa-square-facebook {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0 7px;
   color: blue;
 
 }
 .fa-twitter {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0 7px;
   color: black;
 
@@ -258,6 +265,8 @@ label {
 
 .signupText {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
 }
+
+

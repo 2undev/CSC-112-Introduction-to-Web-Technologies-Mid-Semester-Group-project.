@@ -82,8 +82,8 @@ header nav li a {
 }
 
 main {
-  padding: 20px;
-  margin-top: 50px;
+  padding: 10px 10px 0 10px;
+  margin-top: 70px;
 }
 
 .innerContainer {
@@ -97,7 +97,7 @@ main {
 }
 
 .sectionContainer {
-  margin: 20px 0;
+  margin: 10px 10px 0 10px;
   /* border: thick solid brown; */
 }
 
@@ -146,6 +146,9 @@ main {
   text-decoration: none;
   color: #4b4c2a60;
 }
+.sectionHeading a:hover {
+  color: #4b4c2a;
+}
 
 .floatRight {
   float: right;
@@ -181,7 +184,7 @@ main {
 
 footer {
   background-color: #4b4c29;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 footer nav{
@@ -237,7 +240,7 @@ footer a {
   padding: 0 10px;
   padding-top: 90px;
   overflow: hidden;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .newsletter h1 {
