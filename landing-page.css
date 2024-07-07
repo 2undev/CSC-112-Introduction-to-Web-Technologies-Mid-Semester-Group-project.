@@ -260,7 +260,7 @@ footer a {
   border: thin solid #4b4c29;
   border-radius: 5px;
   width: 50%;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .newsletter #subscribeBtn {
