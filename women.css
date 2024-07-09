@@ -37,7 +37,7 @@ header {
 
 header nav li{
  list-style: none;
- display: inline-flex;
+ display: inline-flex;    
  margin: 0 5px;
 }
 
