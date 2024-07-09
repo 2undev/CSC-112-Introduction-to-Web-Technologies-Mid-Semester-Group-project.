@@ -109,12 +109,15 @@ main {
 
 
 .styleContainer {
-  border-bottom: 3px dotted black;
+  border-bottom: 2px dotted black;
+
+  /* border: thin solid yellow; */
   
-  padding: 5px 15px;
+  padding: 5px;
   margin: 10px;
   width: 500px;
   /* border-radius: 3px; */
+
   
 }
 
@@ -126,7 +129,7 @@ main {
 .styleContainer .img img{
   max-width: 500px;
   /* margin: 10px 15px; */
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .styleContainer .img img:hover{
@@ -141,9 +144,13 @@ main {
 
 
 .btnContainer {
-  /* display: flex; */
-  /* width: 80%; */
-  padding: 10px 0;
+  display: flex;
+  width: 97% !important;
+  padding: 5px;
+  /* border:  thin solid green; */
+  /* margin: 0 auto; */
+  justify-content: space-between;
+  margin-left: 15px;
 
 }
 
@@ -153,6 +160,7 @@ main {
   width: 100%;
   padding: 10px 0;
   text-wrap: nowrap;
+  /* border: thick solid yellow; */
 }
 
 .btnContainers .styleBtnGroup {
@@ -176,64 +184,68 @@ main {
 
 
 .priceName {
-  display: flex;
+  display: block;
   width: auto;
   justify-content: space-between;
   padding: 3px 0px;
-  /* border: thick solid red; */
+  /* border: thin solid red; */
+  padding: 5px;
   margin-bottom: 5px;
+  margin: 0 5px;
+  text-wrap: wrap;
   
+}
+
+.price {
+  display: block;
 }
 .priceName p {
   margin-top: 5px;
   border-bottom: thick solid #4b4c2a;
 }
 
+.cartFavourite {
+  /* border: thin solid blue; */
+  float: right !important;
+}
+
+.cartFavourite .favourite {
+  display: block;
+  /* float: right; */
+  /* border: thin solid yellow; */
+  width: 33px !important;
+  float: right;
+  margin: 7px 0 0 20px;
+}
+
 
 .btnContainer .styleBtn {
   padding: 2px;
-  width: auto;
+  width: 40px !important;
   text-align: center;
   font-weight: bolder;
   background-color: transparent;
-  border: thin solid #4b4c2a;
+  border: none !important;
   color: #4b4c2a;
   text-decoration: none;
   float: right;
   text-wrap: nowrap;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .btnContainer .styleBtn svg{
   color: #4b4c2a;
 }
-.styleBtn svg:hover{
-  color: #fff;
-  border: thin solid green;
-}
-
-
-
-.btnContainer .styleBtn:hover {
-  background-color: #4b4c2a;
-  color: #fff;
-  cursor: pointer;
-}
-
-.btnContainer .styleBtn svg:hover {
-  color: #fff;
-
-}
-
 
 
 
 #Marq {
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: 40px;
+  font-weight: bold;
   color: #4b4c29;
  position: fixed;
- margin-top: 15px;
+ margin-top: 5px !important;
  
 }
 
