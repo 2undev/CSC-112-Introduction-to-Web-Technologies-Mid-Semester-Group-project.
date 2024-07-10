@@ -232,10 +232,12 @@ main {
   text-wrap: nowrap;
   font-size: 18px;
   margin-bottom: 10px;
+  border: thick solid darkblue;
 }
 
 .btnContainer .styleBtn svg{
   color: #4b4c2a;
+  /* border: thick solid darkblue; */
 }
 
 
