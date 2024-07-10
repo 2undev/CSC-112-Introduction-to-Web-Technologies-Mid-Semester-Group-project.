@@ -98,6 +98,26 @@ main {
   height: auto;
   flex-wrap: wrap;
   /* border: thick solid brown; */
+  text-align: center;
+  /* padding-top: 20px; */
+}
+
+.innerContainer h1 {
+  font-size: 50px;
+  margin-bottom: 10px ;
+  margin-top: 50px;
+}
+.innerContainer h2 {
+  font-size: 40px;
+  margin-bottom: 10px ;
+}
+.innerContainer h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.innerContainer p {
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
 
