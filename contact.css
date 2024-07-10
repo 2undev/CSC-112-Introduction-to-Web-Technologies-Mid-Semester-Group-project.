@@ -108,14 +108,13 @@ header nav li a{
   margin: 20px 0;
   border-radius: 20px;
 
-
 }
 
-.leftContainer {
+/* .leftContainer {
   border-right: thick solid #4b4c2a;
   width: 65%;
   padding: 20px;
-}
+} */
 
 .rightContainer {
   /* border-left: thick solid purple; */
@@ -127,6 +126,7 @@ header nav li a{
   background-size: cover;
   border-radius: 0 14px 14px 0;
   color: white;
+  border-left: thick solid #4b4c2a;
 }
 
 
