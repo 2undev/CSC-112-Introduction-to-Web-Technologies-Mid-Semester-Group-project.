@@ -9,20 +9,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-y: auto;
+  /* overflow: hidden; */
+  /* overflow-y: auto; */
+ 
+
 }
 
 body {
   background-color: #d6d4c5;
   color: #4b4c2a;
-  /* font-family: "Open Sans", sans-serif; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-optical-sizing: auto;
+  /* font-size: x-large; */
   font-weight: bold;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  overflow: hidden;
+  overflow-y: auto;
 }
-
 
 header {
   display: flex;
@@ -30,49 +33,42 @@ header {
   padding: 10px 0px;
   border-bottom: solid thick #000;
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: #d6d4c5;
-
   z-index: 1;
 }
 
-
-header nav li{
- list-style: none;
- display: inline-flex;
- margin: 0 5px;
+header nav li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 5px;
 }
 
-
-header .navMiddle{
- margin-top: 8px;
+header .navMiddle {
+  margin-top: 8px;
 }
 
-
-header .navMiddle nav li:hover{
+header .navMiddle nav li:hover {
   /* background-color: #4b4c2a; */
   /* background-color: #d6d4c5; */
   border-radius: 50px;
   color: #fff;
 }
 
-
-header .navMiddle nav li a:hover{
+header .navMiddle nav li a:hover {
   background-color: #4b4c2a;
   /* background-color: #d6d4c5; */
   border-radius: 50px;
   color: #fff;
 }
 
-
-
-header nav li a{
+header nav li a {
   text-decoration: none;
   color: #4b4c29;
   font-weight: bolder;
   padding: 5px 7px;
 }
-
 
 #brandName {
   font-size: 1.5em;
