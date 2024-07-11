@@ -1,0 +1,444 @@
+/* Extra small screen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 575.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: auto;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    /* border: thick solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: block;
+    padding: 10px 15px 0 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 160px;
+  }
+
+  .wallpaper {
+    height: 15vh;
+  }
+
+  .top {
+    display: block;
+  }
+  
+
+  main a {
+    text-decoration: none;
+    /* color: red; */
+    font-style: italic;
+    /* border: thin solid blue; */
+  }
+
+  .category ol li b {
+    margin: 5px 0;
+    border-bottom: 3px solid #4b4c29;
+  }
+
+  section .submitButton {
+    width: 150px;
+    padding: 3px;
+    border: 2px solid #4b4c2a;
+    border-radius: 6px;
+    background-color: transparent;
+    color: black;
+    /* float: right; */
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: normal;
+  }
+
+  .newsletter {
+   
+    margin: 20px 0 0 0;
+    height: auto;
+    /* padding: 10 0px; */
+    padding-top: 90px;
+   /* border: thick solid red; */
+  }
+  
+  .newsletter h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+  }
+  
+  .newsletter p {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .newsletter input {
+    padding: 10px 7px;
+    border: thin solid #4b4c29;
+    border-radius: 5px;
+    width: 70%;
+  }
+  
+  .newsletter #subscribeBtn {
+    padding: 7px;
+    border: 2px solid #4b4c29;
+    /* border-radius: 5px; */
+    background-color: #4b4c29;
+    font-weight: bold;
+    width: 150px;
+    color: #fff;
+    margin: 20px 0;
+  }
+  
+  .newsletter #subscribeBtn:hover {
+    background-color: #4b4c296a;
+    color: #4b4c2a;
+  }
+  
+  #subscribeError {
+    margin: 10px 0;
+    color: red;
+    display: block;
+  }
+  
+  
+}
+
+
+
+/* Small devices  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: 100;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+ 
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 80px;
+    mix-blend-mode: color-burn;
+  }
+}
+
+
+
+
+/* Medium devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: 100;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+ 
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 80px;
+    mix-blend-mode: color-burn;
+  }
+}
+
+
+
+/* Large Devices(Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: 100;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+ 
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 90px;
+    mix-blend-mode: color-burn;
+  }
+}
+
+
+
+/* Extra large screen (Large Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d6d4c5;
+    z-index: 1;
+    /* border: thick solid #000; */
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft nav li img {
+    width: 100px;
+    mix-blend-mode: color-burn;
+    height: 20px;
+  }
+
+  #brandName {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #4b4c29;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  
+  
+  header .navMiddle{
+   margin-top: 8px;
+   width: auto;
+  }
+  
+  header .navMiddle nav li a:hover{
+    background-color: #4b4c2a;
+    /* background-color: #d6d4c5; */
+    border-radius: 50px;
+    color: #fff;
+  }
+  
+  
+  
+  header nav li a{
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bolder;
+    padding: 5px;
+  }
+
+
+  main {
+    border: thick solid red;
+    width: 100%;
+    /* height: 100vh; */
+    display: block;
+    padding: 70px 70px 0 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    line-height: 20px;
+   
+  }
+}

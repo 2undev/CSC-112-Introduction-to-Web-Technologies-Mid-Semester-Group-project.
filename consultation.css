@@ -88,28 +88,6 @@ header nav li a{
 }
 
 
-  
-
-/* .navLeft nav li a:hover {
-  background-color: #4b4c2a;
-
-}
-.navLeft nav li:hover {
-  background-color: transparent !important;
-  border-radius: 0;
-} */
-
-
-#brandName {
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: 5px;
-  font-weight: bolder;
-  color: #4b4c29;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 
 .top {
   display: flex;
@@ -118,13 +96,7 @@ header nav li a{
   padding: 10px 0;
 }
 
-/* main {
-  padding: 20px;
-  margin-top: 50px;
-  width: 60%;
-  margin: 70px auto;
-  line-height: 25px;
-} */
+
 
 main {
   /* border: thick solid red; */
@@ -205,6 +177,7 @@ section .submitButton {
   margin-top: 10px;
   font-weight: bolder;
   font-size: larger;
+  border: thick solid red;
  
 }
 section .submitButton:hover {

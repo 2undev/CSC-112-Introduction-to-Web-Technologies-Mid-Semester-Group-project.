@@ -1026,6 +1026,7 @@
     width: 100%;
     background-color: #d6d4c5;
     z-index: 1;
+    /* border: thick solid #000; */
   }
 
   header nav li {
@@ -1044,6 +1045,7 @@
   header .navLeft nav li img {
     width: 70px;
     mix-blend-mode: color-burn;
+    height: 20px;
   }
 
   main {
@@ -1247,14 +1249,6 @@
     font-weight: bold;
     text-align: center;
   }
-
-  /* .heroHeading {
-  margin-top: 500px;
-  background-color: #000;
-  position: absolute;
-  top: 200px;
-  left: 800px;
-} */
 
   .card {
     border: 3px solid #4b4c29;
