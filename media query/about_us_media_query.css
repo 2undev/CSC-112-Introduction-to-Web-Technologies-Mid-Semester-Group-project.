@@ -617,21 +617,8 @@
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    /* border : 1px solid #000 */
   }
-
-  header .navMiddle {
-    margin-top: 8px;
-    /* border: thin solid #4b4c2a; */
-    width: 1000px;
-    text-align: center;
-  }
- 
-
-  header .navMiddle nav li {
-   /* border: thin solid #4b4c2a; */
-   font-size: 16px;
-  }
+  
   header .navMiddle nav li a:hover {
     background-color: #4b4c2a;
     /* background-color: #d6d4c5; */
@@ -644,25 +631,26 @@
   header nav li a {
     text-decoration: none;
     color: #4b4c29;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 5px;
     font-size: 15px;
   }
 
-  /* #brandName {
+  #brandName {
     font-size: 1.5em;
     text-decoration: none;
-    margin-top: 5px;
+   
     font-weight: bolder;
     color: #4b4c29;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
-  } */
+  }
 
   header .navLeft nav li img {
     width: 70px;
     mix-blend-mode: color-burn;
+    height: 20px;
   }
 
   

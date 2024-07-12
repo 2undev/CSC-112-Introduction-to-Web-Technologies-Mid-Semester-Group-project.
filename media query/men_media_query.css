@@ -1210,18 +1210,12 @@
  
 
   header .navLeft nav li img {
-    width: 100px;
+    width: 70px;
     mix-blend-mode: color-burn;
     /* border: thick solid black; */
     height: 20px;
   }
-
-  
-  header .navMiddle{
-    margin-top: 8px;
-    /* border: thin solid #000; */
-    width: auto;
-  }
+ 
   
   
   header .navMiddle nav li a:hover{
@@ -1235,7 +1229,7 @@
     text-decoration: none;
     color: #4b4c29;
     font-weight: bolder;
-    padding: 5px;
+    /* padding: 5px; */
     font-size: 15px;
   }
 

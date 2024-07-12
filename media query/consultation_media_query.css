@@ -913,13 +913,6 @@
    display: inline-flex;
    margin: 0 2px;
   }
-  
-  
-  header .navMiddle{
-   margin-top: 8px;
-    /* border: thin solid #4b4c2a; */
-    width: auto;
-  }
  
   
   
@@ -935,12 +928,12 @@
   header nav li a{
     text-decoration: none;
     color: #4b4c29;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 15px;
   }
 
   header .navLeft nav li img {
-    width: 100px;
+    width: 70px;
     mix-blend-mode: color-burn;
     height: 20px;
   }

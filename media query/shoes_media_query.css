@@ -1251,13 +1251,6 @@
   }
   
   
-  header .navMiddle{
-   margin-top: 8px;
-   width: auto;
-   /* border: thin solid #000; */
-  }
-  
-  
   header .navMiddle nav li a:hover{
     background-color: #4b4c2a;
     /* background-color: #d6d4c5; */
@@ -1270,12 +1263,12 @@
   header nav li a{
     text-decoration: none;
     color: #4b4c29;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 15px;
   }
   
   header .navLeft nav li img {
-    width: 100px;
+    width: 70px;
     mix-blend-mode: color-burn;
     height: 20px;
   }
