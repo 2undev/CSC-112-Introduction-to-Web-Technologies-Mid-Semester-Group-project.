@@ -49,6 +49,10 @@ loginForm.addEventListener('submit', (event) => {
     });
 
     if (confirmedUser) {
+      // save the logged in user details to session storage
+
+      sessionStorage.setItem('users', JSON.stringify(confirmedUser));
+
       window.location.href = 'landing-page.html';
     } else {
       loginTopErrorMessage.textContent = 'Invalid email or password, check your email and password then try again';

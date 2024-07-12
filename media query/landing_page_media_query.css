@@ -1014,6 +1014,7 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
     /* border: thick solid blue; */
+    /* position: relative; */
   }
 
   header {
@@ -1313,4 +1314,29 @@
     float: right;
     margin-top: 5px;
   }
+
+  /* #logoutBtn {
+    position: absolute;
+    margin-left: 1460px;
+    margin-top: 210px;
+
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 15px;
+    width: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+  }
+  #logoutBtn:hover {
+   background: red;
+   color: #fff;
+   border: #fff;
+  }
+  
+  #logoutBtnContainer {
+    /* border: thick solid #4b4c29; */
+    position: relative;
+    display: flex;
+  } */
 }

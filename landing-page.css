@@ -21,6 +21,7 @@ body {
   font-variation-settings: "wdth" 100;
   overflow: hidden;
   overflow-y: auto;
+  /* border: thick solid blue; */
 }
 
 header {
@@ -370,6 +371,7 @@ footer a {
 
 .ratingIcon {
   /* border: thin solid #4b4c29; */
-  float: right;
   margin-top: 5px;
 }
+
+
