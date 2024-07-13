@@ -1,0 +1,685 @@
+/* Extra small screen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 575.98px) {
+  header {
+    margin-top: 0;
+    /* margin-bottom: 20px; */
+    display: block;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: solid thick #000;
+    /* text-wrap: nowrap; */
+    position: fixed;
+    width: 100%;
+    background-color: #d6d4c5;
+  
+    color: #4b4c2a;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 25px;
+  }
+
+  .navLeft {
+    display: block;
+    width: 100%;
+    margin: 3px 0;
+  }
+  .navLeft nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .navLeft nav ul #brandName {
+    font-size: xx-large;
+  }
+
+  .navRight {
+    width: 100%;
+    padding: 3px 0;
+    text-align: center;
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: 2px solid #4b4c29;
+  }
+  
+  header .navRight nav li a {
+    background-color: transparent;
+    /* border: thin solid #4b4c29; */
+    width: 100px;
+  }
+  header .navRight nav li .contactbtn {
+    background-color: #4b4c29;
+    /* border: thin solid #fff; */
+    width: 120px;
+    color: #fff;
+  }
+
+  main {
+    /* border: thick solid blue; */
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    /* flex-direction: column; */
+    overflow: hidden;
+  }
+
+  .parent {
+    /* border: thin solid #4b4c2a; */
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    /* border: thin solid red; */
+  }
+
+  .formContainer {
+    /* border: thick solid red; */
+    width: 100%;
+    /* border-right: thin solid #4b4c2a; */
+  }
+  
+  #form {
+    /* border: thick solid black; */
+    padding: 5px 25px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+
+
+  .inpField {
+    border: 2px solid #4b4c2a;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #d6d4c5;
+  }
+
+  .btn {
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    color: #4b4c2a;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .loginNote {
+    margin: 20px 0;
+    margin-left: 30px;
+    font-size: 22px;
+  }
+
+  .registerBtnContainer {
+    /* display:flex; */
+    /* border: thick solid purple; */
+    width: 100%;
+    height: auto;
+    text-wrap: nowrap;
+  }
+  
+  .registerBtn {
+    display: block;
+    padding: 7px;
+    background-color: transparent;
+    width: 80%;
+    color: #4b4c2a;
+    margin: 20px auto;
+    font-weight: bolder;
+  }
+
+  .fa-google {
+    font-size: 18px;
+    margin: 0 7px;
+    color: red;
+  
+  }
+
+  .fa-square-facebook {
+    font-size: 18px;
+    margin: 0 7px;
+    color: blue;
+  
+  }
+  .fa-twitter {
+    font-size: 18px;
+    margin: 0 7px;
+    color: black;
+  
+  }
+  
+
+  .image {
+    display: none;
+  }
+}
+
+
+
+/* Small devices  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: solid thick #000;
+    position: fixed;
+    width: 100%;
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 25px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    margin: 3px 0;
+    /* border: thin solid blue; */
+  }
+
+
+  .navLeft nav ul #brandName {
+    font-size: 25px;
+  }
+
+  .navRight {
+    width: 50%;
+    padding: 3px 0;
+    text-align: center;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: 2px solid #4b4c29;
+  }
+  
+  header .navRight nav li a {
+    background-color: transparent;
+    /* border: thin solid #4b4c29; */
+  }
+
+  header .navRight nav li .contactbtn {
+    background-color: #4b4c29;
+    width: 120px;
+    color: #fff;
+  }
+
+  main {
+    /* border: thick solid blue; */
+    padding: 10px 80px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* flex-direction: column; */
+    overflow: hidden;
+  }
+
+  .parent {
+    /* border: thin solid #4b4c2a; */
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    /* border: thin solid red; */
+  }
+
+  .formContainer {
+    /* border: thick solid red; */
+    width: 100%;
+    /* border-right: thin solid #4b4c2a; */
+  }
+  
+  #form {
+    /* border: thick solid black; */
+    padding: 5px 25px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+
+
+  .inpField {
+    border: 2px solid #4b4c2a;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #d6d4c5;
+  }
+
+  .btn {
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    color: #4b4c2a;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .loginNote {
+    margin: 20px 0;
+    margin-left: 30px;
+    font-size: 22px;
+  }
+
+  .registerBtnContainer {
+    /* display:flex; */
+    /* border: thick solid purple; */
+    width: 100%;
+    height: auto;
+    text-wrap: nowrap;
+  }
+  
+  .registerBtn {
+    display: block;
+    padding: 7px;
+    background-color: transparent;
+    width: 80%;
+    color: #4b4c2a;
+    margin: 20px auto;
+    font-weight: bolder;
+  }
+
+  .fa-google {
+    font-size: 18px;
+    margin: 0 7px;
+    color: red;
+  
+  }
+
+  .fa-square-facebook {
+    font-size: 18px;
+    margin: 0 7px;
+    color: blue;
+  
+  }
+  .fa-twitter {
+    font-size: 18px;
+    margin: 0 7px;
+    color: black;
+  
+  }
+  
+
+  .image {
+    display: none;
+  }
+}
+
+
+
+
+/* Medium devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: solid thick #000;
+    position: fixed;
+    width: 100%;
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 25px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    margin: 3px 0;
+    /* border: thin solid blue; */
+  }
+
+
+  .navLeft nav ul #brandName {
+    font-size: 25px;
+  }
+
+  .navRight {
+    width: 50%;
+    padding: 3px 0;
+    text-align: center;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: 2px solid #4b4c29;
+    float: right;
+  }
+  
+  header .navRight nav li a {
+    background-color: transparent;
+    /* border: thin solid #4b4c29; */
+  }
+
+  header .navRight nav li .contactbtn {
+    background-color: #4b4c29;
+    width: 120px;
+    color: #fff;
+  }
+
+  main {
+    /* border: thick solid blue; */
+    padding: 10px 80px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* flex-direction: column; */
+    overflow: hidden;
+  }
+
+  .parent {
+    border: thin solid #4b4c2a;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    /* border: thin solid red; */
+  }
+
+  .formContainer {
+    /* border: thick solid red; */
+    width: 100%;
+    /* border-right: thin solid #4b4c2a; */
+  }
+  
+  #form {
+    /* border: thick solid black; */
+    padding: 5px 25px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+
+
+  .inpField {
+    border: 2px solid #4b4c2a;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #d6d4c5;
+  }
+
+  .btn {
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    color: #4b4c2a;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .loginNote {
+    margin: 20px 0;
+    margin-left: 30px;
+    font-size: 22px;
+  }
+
+  .registerBtnContainer {
+    /* display:flex; */
+    /* border: thick solid purple; */
+    width: 100%;
+    height: auto;
+    text-wrap: nowrap;
+  }
+  
+  .registerBtn {
+    display: block;
+    padding: 7px;
+    background-color: transparent;
+    width: 80%;
+    color: #4b4c2a;
+    margin: 20px auto;
+    font-weight: bolder;
+  }
+
+  .fa-google {
+    font-size: 18px;
+    margin: 0 7px;
+    color: red;
+  
+  }
+
+  .fa-square-facebook {
+    font-size: 18px;
+    margin: 0 7px;
+    color: blue;
+  
+  }
+  .fa-twitter {
+    font-size: 18px;
+    margin: 0 7px;
+    color: black;
+  
+  }
+  
+
+  .image {
+    display: none;
+  }
+}
+
+
+
+/* Large Devices(Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: solid thick #000;
+    position: fixed;
+    width: 100%;
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 25px;
+  }
+
+  .navLeft {
+    display: flex;
+    width: 50%;
+    margin: 3px 0;
+    /* border: thin solid blue; */
+  }
+
+
+  .navLeft nav ul #brandName {
+    font-size: 25px;
+  }
+
+  .navRight {
+    width: 50%;
+    padding: 3px 0;
+    text-align: center;
+    /* border: thin solid red; */
+  }
+
+  header .navRight nav li {
+    background-color: transparent;
+    border: 2px solid #4b4c29;
+    float: right;
+  }
+  
+  header .navRight nav li a {
+    background-color: transparent;
+    /* border: thin solid #4b4c29; */
+  }
+
+  header .navRight nav li .contactbtn {
+    background-color: #4b4c29;
+    width: 120px;
+    color: #fff;
+  }
+
+  main {
+    /* border: thick solid blue; */
+    padding: 10px 80px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* flex-direction: column; */
+    overflow: hidden;
+  }
+
+  .parent {
+    border: thin solid #4b4c2a;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    /* border: thin solid red; */
+  }
+
+  .formContainer {
+    /* border: thick solid red; */
+    width: 100%;
+    /* border-right: thin solid #4b4c2a; */
+  }
+  
+  #form {
+    /* border: thick solid black; */
+    padding: 5px 25px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+
+
+  .inpField {
+    border: 2px solid #4b4c2a;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #d6d4c5;
+  }
+
+  .btn {
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    color: #4b4c2a;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .loginNote {
+    margin: 20px 0;
+    margin-left: 30px;
+    font-size: 22px;
+  }
+
+  .registerBtnContainer {
+    /* display:flex; */
+    /* border: thick solid purple; */
+    width: 100%;
+    height: auto;
+    text-wrap: nowrap;
+  }
+  
+  .registerBtn {
+    display: block;
+    padding: 7px;
+    background-color: transparent;
+    width: 80%;
+    color: #4b4c2a;
+    margin: 20px auto;
+    font-weight: bolder;
+  }
+
+  .fa-google {
+    font-size: 18px;
+    margin: 0 7px;
+    color: red;
+  
+  }
+
+  .fa-square-facebook {
+    font-size: 18px;
+    margin: 0 7px;
+    color: blue;
+  
+  }
+  .fa-twitter {
+    font-size: 18px;
+    margin: 0 7px;
+    color: black;
+  
+  }
+  
+
+  .image {
+    display: none;
+  }
+}
+
+
+
+/* Extra large screen (Large Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 1200px) {
+  
+}
