@@ -4,6 +4,11 @@ let subscribeForm = document.getElementById('subscribeForm');
 let subscribeInput = document.getElementById('subscribeInput');
 let subscribeError = document.getElementById('subscribeError');
 
+// let user = JSON.parse( sessionStorage.getItem('user'));
+// let loggedInUser = document.getElementById('loggedInUser');
+// loggedInUser.textContent = user.fullName;
+
+
 
 let subscribers = [];
 

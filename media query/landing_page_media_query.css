@@ -178,7 +178,8 @@
   }
 
   .newsletter {
-    height: 35vh;
+    height: auto;
+    text-align: center;
     /* border: thick solid yellow; */
   }
 
@@ -213,6 +214,7 @@
     background-color: #4b4c29;
     margin: 0 20px;
     height: auto;
+    text-align: center;
   }
 
   footer nav {
@@ -241,6 +243,15 @@
     color: #fff;
     font-size: 40px;
     margin: 5px 30px;
+  }
+
+  .copyright {
+    /* border: thick solid red; */
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
   }
 }
 
@@ -422,7 +433,7 @@
   }
 
   .newsletter {
-    height: 35vh;
+    height: auto;
     /* border: thick solid yellow; */
   }
 
@@ -457,6 +468,7 @@
     background-color: #4b4c29;
     margin: 0 20px;
     height: auto;
+    text-align: center;
   }
 
   footer nav {
@@ -675,7 +687,7 @@
   }
 
   .newsletter {
-    height: 35vh;
+    height: auto;
     /* border: thick solid yellow; */
   }
 
@@ -710,6 +722,7 @@
     background-color: #4b4c29;
     margin: 0 20px;
     height: auto;
+    text-align: center;
   }
 
   footer nav {
@@ -929,7 +942,7 @@
   }
 
   .newsletter {
-    height: 35vh;
+    height: auto;
     /* border: thick solid yellow; */
   }
 
@@ -965,6 +978,7 @@
     background-color: #4b4c29;
     margin: 0 20px;
     height: auto;
+    text-align: center;
   }
 
   footer nav {
@@ -1157,6 +1171,7 @@
   footer {
     background-color: #4b4c29;
     margin: 0 20px;
+    height: auto;
   }
 
   footer nav {
@@ -1351,8 +1366,4 @@
     position: relative;
     display: flex;
   } */
-
-  #loggedInUser {
-    display: inline-flex;
-  }
 }

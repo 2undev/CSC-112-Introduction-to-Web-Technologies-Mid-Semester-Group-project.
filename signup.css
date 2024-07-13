@@ -57,7 +57,7 @@ header nav li {
 }
 
 header .navRight {
-  margin-right: 20px;
+  /* margin-right: 20px; */
   /* border: thin solid red; */
 }
 
@@ -139,7 +139,7 @@ main {
 .formContainer {
   /* border: thick solid red; */
   width: 70%;
-  border-right: thin solid #4b4c2a;
+  /* border-right: thin solid #4b4c2a; */
 }
 
 #form {

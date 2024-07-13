@@ -1,0 +1,90 @@
+body {
+  border: thick solid blue;
+  overflow: hidden;
+  /* overflow-y: auto; */
+  display: flex;
+  width: 100%; 
+  margin: 0;
+  border: 0;
+  background-color: #d3d2c3;
+  background-image: url('images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
+  background-size: cover;
+}
+
+
+header {
+  background-color: #d3d2c3;
+  color: #4b4c2a;
+  display: flex;
+  justify-content: space-between;
+  /* border: thick solid red; */
+  width: 100%;
+  border-bottom: solid thick #000;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+header nav li {
+  display: inline-flex;
+}
+header nav li a {
+  display: inline-flex;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav {
+  /* border: thick solid yellow; */
+  width: 100%;
+}
+
+#brandName {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.allColor {
+  border: thin solid #4b4c2a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #4b4c2a;
+  color: white;
+
+}
+
+main {
+  border: thick solid red;
+  height: 100vh;
+  width: 100%;
+  margin-top: 60px;
+}
+
+marquee {
+font-size: xx-large;
+}
+
+.itemContainer {
+  display: flex;
+  /* border: thick solid green; */
+  justify-content: space-between;
+}
+
+.divLeft {
+  width: 40%;
+  font-size: 100px;
+  font-weight: bolder;
+  /* border: thick solid yellow; */
+}
+.divRight {
+  width: 25%;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border: thick solid yellow; */
+  text-align: center;
+  margin-top: 40px;
+}
+.divLeft h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
