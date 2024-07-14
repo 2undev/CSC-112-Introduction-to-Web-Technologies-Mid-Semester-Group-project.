@@ -125,6 +125,21 @@
     font-size: 22px;
   }
 
+  .lineBox {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    /* border: thick solid red; */
+    justify-content: center;
+  }
+
+  .lineBox hr {
+    display: inline-flex;
+    width: 120px;
+    border: 1px solid #4b4c2a;
+    margin: 0 5px 3px 5px;
+  }
+
   .registerBtnContainer {
     /* display:flex; */
     /* border: thick solid purple; */
