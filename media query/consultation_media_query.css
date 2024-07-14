@@ -85,6 +85,16 @@
     /* border: thin solid blue; */
   }
 
+  #Marq {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b4c29;
+   position: fixed;
+   margin-top: 45px;
+   /* border: thick solid red; */
+   padding: 10px;
+  }
+
   .category ol li b {
     margin: 5px 0;
     border-bottom: 3px solid #4b4c29;
@@ -212,8 +222,6 @@
     font-weight: normal;
     text-align: center;
   }
-  
-  
 }
 
 
@@ -287,6 +295,16 @@
     font-size: 17px;
     line-height: 20px;
     margin-top: 160px;
+  }
+
+  #Marq {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b4c29;
+   position: fixed;
+   margin-top: 25px;
+   /* border: thick solid red; */
+   padding: 10px;
   }
 
   .wallpaper {
