@@ -104,7 +104,7 @@ form.addEventListener('submit', (event) => {
 
     setTimeout(()=>{
       window.location.href = 'login.html';
-    },3000)
+    },1500)
     }
   }
 
