@@ -475,7 +475,7 @@
   }
 
   header .navLeft nav li img {
-    width: 80px;
+    width: 50px;
     mix-blend-mode: color-burn;
   }
 
@@ -487,7 +487,7 @@
 
   .hero {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     margin: 0%;
   }
 

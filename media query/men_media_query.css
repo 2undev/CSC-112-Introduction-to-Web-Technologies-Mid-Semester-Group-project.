@@ -906,7 +906,7 @@
     background-color: #d6d4c5;
     z-index: 1;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     /* margin: 0 5px; */
   }
 
@@ -930,7 +930,7 @@
   }
 
   header .navLeft nav li img {
-    width: 120px;
+    width: 50px;
     mix-blend-mode: color-burn;
   }
 

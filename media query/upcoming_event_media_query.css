@@ -59,6 +59,16 @@
     /* border: thick solid red; */
   }
 
+  #Marq {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b4c29;
+   position: fixed;
+   margin-top: 25px;
+   /* border: thick solid red; */
+   padding: 10px;
+  }
+
   .innerContainer {
     flex-wrap: wrap;
     /* border: thick solid brown; */
@@ -193,6 +203,16 @@
     padding: 10px 10px 0 10px;
     margin-top: 180px;
     /* border: thick solid red; */
+  }
+
+  #Marq {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b4c29;
+   position: fixed;
+   margin-top: 15px;
+   /* border: thick solid red; */
+   padding: 10px;
   }
 
   .hero {
@@ -338,6 +358,16 @@
     /* border: thick solid red; */
   }
 
+  #Marq {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b4c29;
+   position: fixed;
+   margin-top: 15px;
+   /* border: thick solid red; */
+   padding: 10px;
+  }
+
   .hero {
     width: 100%;
     height: 30vh;
@@ -442,8 +472,8 @@
 
   header {
     display: block;
-    justify-content: space-between;
-    padding: 10px 0px;
+    /* justify-content: space-between; */
+    padding: 10px 0;
     border-bottom: solid thick #000;
     position: fixed;
     top: 0;
@@ -451,6 +481,9 @@
     background-color: #d6d4c5;
     z-index: 1;
     text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+    /* border: thick solid green; */
   }
 
   header nav li {
@@ -472,7 +505,7 @@
   }
 
   header .navLeft nav li img {
-    width: 80px;
+    width: 50px;
     mix-blend-mode: color-burn;
   }
 

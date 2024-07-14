@@ -69,7 +69,7 @@
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     /* font-size: x-large; */
-    margin-top: 193px;
+    margin-top: 13px;
   }
 
   #Marq {
@@ -558,8 +558,8 @@
     background-color: #d6d4c5;
     z-index: 1;
     text-align: center;
-    font-size: 25px;
-    margin: 0 3px;
+    font-size: 15px;
+    margin: 0 5px;
     /* border: thick solid green; */
   }
 
@@ -582,7 +582,7 @@
   }
 
   header .navLeft nav li img {
-    width: 70px;
+    width: 50px;
     mix-blend-mode: color-burn;
   }
 
@@ -594,7 +594,7 @@
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     /* font-size: x-large; */
-    margin-top: 250px;
+    margin-top: 230px;
   }
 
   #Marq {
