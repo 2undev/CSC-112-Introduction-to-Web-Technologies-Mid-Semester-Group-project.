@@ -14,8 +14,8 @@ loginTopErrorMessage.textContent = "";
 loginForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  let loginEmail = document.getElementById("loginEmail").value;
-  let loginPassword = document.getElementById("loginPassword").value;
+  let loginEmail = document.getElementById("loginEmail").value.trim();
+  let loginPassword = document.getElementById("loginPassword").value.trim();
 
   let formIsValid = true;
 
@@ -42,7 +42,7 @@ loginForm.addEventListener("submit", (event) => {
       loginTopErrorMessage.textContent = "";
     }, 2000);
   } else {
-    let existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+    let existingUsers = JSON.parse(localStorage.getItem("users") || '[]');
 
     let confirmedUser = existingUsers.find((user) => {
       return user.email === loginEmail && user.password === loginPassword;

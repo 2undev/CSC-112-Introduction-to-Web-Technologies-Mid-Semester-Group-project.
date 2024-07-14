@@ -78,7 +78,7 @@ form.addEventListener('submit', (event) => {
 
     // To prevent overriding the previous data been stored in the localStorage whenever we save data to it we need to first of all Retrieve the existing data that is stored in the localStorage then add new data to the localStorage
     
-    let existingData = JSON.parse(localStorage.getItem('users') || []);
+    let existingData = JSON.parse(localStorage.getItem('users') || '[]');
 
     let foundUser = existingData.find(savedUser => {
       return savedUser.email === user.email 
