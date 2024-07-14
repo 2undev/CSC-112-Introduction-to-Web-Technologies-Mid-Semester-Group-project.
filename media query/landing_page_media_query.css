@@ -112,14 +112,14 @@
 
   .explore {
     font-weight: bold;
-    font-size: 75px;
+    font-size: 55px;
     /* height: 7vh; */
     text-align: start;
-    margin-top: 45px;
+    margin-top: 75px;
   }
 
   .moveleff {
-    margin-left: 300px;
+    margin-left: 200px;
   }
 
   .testimonials .innerContainer {
