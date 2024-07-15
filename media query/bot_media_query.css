@@ -1,0 +1,442 @@
+@media screen and (min-width: 20px) and (max-width: 529.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: auto;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    padding: 10px;
+    margin-top: 180px;
+    /* border: thick solid #000; */
+  }
+
+  .styleContainer {
+    border: 2px double #4b4c29;
+    margin: 15px;
+    border-radius: 8px;
+    width: 40%;
+    align-items: center;
+    
+  }
+
+  .styleContainer .img img {
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+    /* border: thin solid #4b4c29; */
+    background: #4b4c29;
+  }
+}
+
+/* Extra small screen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 530px) and (max-width: 575.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: auto;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    padding: 10px;
+    margin-top: 180px;
+    border: thick solid #000;
+  }
+
+  .styleContainer {
+    border: 2px double #4b4c29;
+    margin: 15px;
+    border-radius: 8px;
+    width: 40%;
+    align-items: center;
+    
+  }
+
+  .styleContainer .img img {
+    width: 220px;
+    margin: 0 auto;
+    height: 250px;
+    /* border: thin solid #4b4c29; */
+    background: #4b4c29;
+  }
+}
+
+
+
+
+
+/* 767.98px */
+
+
+/* Small devices  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 576px) and (max-width: 629.99px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: auto;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    padding: 10px;
+    margin-top: 180px;
+    border: thick solid #000;
+  }
+
+  .styleContainer {
+    border: 2px double #4b4c29;
+    margin: 15px;
+    border-radius: 8px;
+    width: 40%;
+    align-items: center;
+    
+  }
+  
+  .styleContainer .img img {
+    width: 90%;
+    height: 22vh;
+    /* border: thick solid #4b4c29; */
+    background: #4b4c29;
+  }
+
+  /* .styleContainer .img img {
+    max-width: 220px;
+    margin: 15px;
+    height: 300px;
+    border: thick solid #4b4c29;
+    background: #4b4c29;
+    box-shadow: inset 5px 5px 0px #4b4c29, inset -5px -5px 0px #ffffff;
+    aspect-ratio: 1/1;
+  } */
+}
+
+/* Medium devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 631px) and (max-width: 889px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: auto;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    padding: 10px;
+    margin-top: 180px;
+    border: thick solid #000;
+  }
+
+  .styleContainer {
+    border: 2px double #4b4c29;
+    margin: 15px;
+    border-radius: 8px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .styleContainer .img img {
+
+    width: 90%;
+    height: 380px;
+    /* border: thick solid #4b4c29; */
+    background: #4b4c29;
+  }
+}
+
+
+
+/* Medium devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 890px) and (max-width: 1199.98px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #d6d4c5;
+    color: #4b4c2a;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+    overflow-y: auto;
+    /* border: thick solid blue; */
+  }
+
+  header {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    border-bottom: solid thick #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d6d4c5;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 2px;
+  }
+
+  header .navLeft li {
+    /* border: thick solid goldenrod; */
+    display: block;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    color: #4b4c29;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+
+  header .navLeft nav li img {
+    width: 50px;
+    mix-blend-mode: color-burn;
+  }
+
+  main {
+    padding: 10px;
+    margin-top: 180px;
+    border: thick solid #000;
+  }
+
+  .styleContainer {
+    border: 2px double #4b4c29;
+    margin: 15px;
+    border-radius: 8px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .styleContainer .img img {
+
+    width: 90%;
+    height: 380px;
+    /* border: thick solid #4b4c29; */
+    background: #4b4c29;
+  }
+}
+
+/* Large Devices(Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+} */
+
+/* Extra large screen (Large Desktop) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 1200px) {
+}
