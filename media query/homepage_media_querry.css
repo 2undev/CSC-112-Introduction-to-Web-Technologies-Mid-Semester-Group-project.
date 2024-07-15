@@ -1,3 +1,20 @@
+
+@media screen and (min-width: 20px) and (max-width: 529.98px) {
+  .rightContent {
+    width: auto;
+    margin-top: 200px;
+    height: 100%;
+    border: 1px solid #4b4c295f;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 30px;
+    /* text-align: center; */
+    border: thick solid red;
+  }
+}
+
+
+
 /* Extra small screen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media screen and (max-width: 575.98px) {
@@ -91,14 +108,14 @@
 
   .rightContent {
     width: auto;
-    margin-top: 5px;
-    height: 100vh;
+    margin-top: 200px;
+    height: auto;
     border: 1px solid #4b4c295f;
     border-radius: 20px;
     padding: 10px;
     line-height: 30px;
     /* text-align: center; */
-    /* border: thick solid red; */
+    border: thick solid red;
   }
 
   .rightContent p {
@@ -125,8 +142,9 @@
 
   .rightContent .homepageSuite {
     /* border: thick solid blue; */
-    margin-top: 10px;
-    height: 400px;
+    /* margin-top: 10px; */
+    /* height: 400px; */
+    display: none;
   }
 
   .rightContent .homepageSuite img {
@@ -159,7 +177,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    padding: 10px;
+    padding: 5px;
   }
 
   .navLeft {
@@ -168,10 +186,20 @@
     /* border: thin solid red; */
   }
 
+  header .navRight {
+    /* border: thick solid blue; */
+    /* display: flex; */
+    width: 52%;
+  }
+  /* header .navRight nav {
+    display: flex;
+  } */
   header .navRight nav li {
+    display: inline-flex;
     background-color: transparent;
     border: thin solid #4b4c29;
-    width: 100px;
+    width: 120px;
+    float: right;
   }
 
   #brandName {
@@ -233,8 +261,8 @@
 
   .rightContent {
     width: 100%;
-    margin-top: 5px;
-    height: 100vh;
+    margin-top: 200px;
+    height: auto;
     border: 1px solid #4b4c295f;
     border-radius: 20px;
     padding: 10px;
@@ -255,7 +283,7 @@
   #exploreBtn {
     background-color: transparent;
     padding: 7px;
-    border: thin solid #4b4c29;
+    border: thin solid #fff;
     cursor: pointer;
     width: 60%;
     font-weight: bolder;
@@ -267,8 +295,9 @@
 
   .rightContent .homepageSuite {
     /* border: thick solid blue; */
-    margin-top: 10px;
-    height: 400px;
+    /* margin-top: 10px; */
+    /* height: 400px; */
+    display: none;
   }
 
   .rightContent .homepageSuite img {
@@ -386,7 +415,7 @@
 
   .rightContent {
     width: 400px;
-    margin-top: 100px;
+    margin-top: 300px;
     height: auto;
     border: 1px solid #4b4c295f;
     border-radius: 20px;
@@ -408,7 +437,7 @@
   #exploreBtn {
     background-color: transparent;
     padding: 7px;
-    border: thin solid #4b4c29;
+    border: thin solid #fff;
     cursor: pointer;
     width: 60%;
     font-weight: bolder;
@@ -534,7 +563,7 @@
 
   .rightContent {
     max-width: 40%;
-    margin-top: 110px;
+    margin-top: 250px;
     height: auto;
     border: 1px solid #4b4c295f;
     border-radius: 20px;
@@ -556,7 +585,7 @@
   #exploreBtn {
     background-color: transparent;
     padding: 5px;
-    border: thin solid #4b4c29;
+    border: thin solid #fff;
     cursor: pointer;
     width: 50%;
     font-weight: bolder;
