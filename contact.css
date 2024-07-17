@@ -89,6 +89,27 @@ header nav li a{
   font-style: normal;
 }
 
+.navRight {
+  border: thin solid #4b4c29;
+  margin-right: 20px;
+  padding: 0 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.navRight li a {
+ margin-top: 5px;
+ /* text-align: center; */
+}
+.navRight li a:hover {
+ color: #fff;
+ /* text-align: center; */
+}
+.navRight:hover {
+background-color: #4b4c2a;
+color: #fff;
+border: tan solid #4b4c29;
+}
+
 
 .mainContainer {
   /* border: thick solid red; */
