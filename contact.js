@@ -94,6 +94,6 @@ let goBack = document.getElementById('goBack');
 
 // function to go back to previous page
 goBack.addEventListener('click', function(){
-  alert('i dey work o')
-  // window.history.back()
+  // alert('i dey work o')
+  window.history.back()
 })

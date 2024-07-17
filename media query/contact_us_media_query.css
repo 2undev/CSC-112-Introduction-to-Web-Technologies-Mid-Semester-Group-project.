@@ -95,10 +95,10 @@
   .navRight li #goBack {
     border: thin solid #4b4c29;
     padding: 10px;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 5px;
-    width: auto;
+    width: 130px;
     text-wrap: nowrap;
     background-color: transparent;
   }
@@ -315,10 +315,10 @@
   .navRight li #goBack {
     border: thin solid #4b4c29;
     padding: 10px;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 5px;
-    width: auto;
+    width: 130px;
     text-wrap: nowrap;
     background-color: transparent;
   }
