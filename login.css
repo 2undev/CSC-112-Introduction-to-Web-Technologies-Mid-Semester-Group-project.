@@ -60,6 +60,13 @@ header nav li{
  
  }
 
+ header .navLeft nav ul li img {
+  width: 70px;
+  mix-blend-mode: color-burn;
+  /* border: thick solid black; */
+  height: 20px;
+}
+
  
  header .navRight {
    margin-right: 20px;
